@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from "react";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { Ionicons } from "@expo/vector-icons";
 
 import { TouchableOpacity, View, Text, StyleSheet } from "react-native";
