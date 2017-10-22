@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "lexi",
+    "name": "Lexi",
     "description": "Greek Word Of The Day",
     "slug": "lexi",
     "privacy": "public",
     "sdkVersion": "22.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icons/app-icon.png",
