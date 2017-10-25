@@ -3,7 +3,7 @@ import WORD_SET from "../../../assets/words.json";
 import Swiper from "react-native-swiper";
 import moment from "moment";
 
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 
 import { Constants } from "expo";
 
@@ -47,6 +47,8 @@ class WordScreen extends Component {
         <Switcher index={currentIndex} />
         <Swiper
           showsButtons
+          nextButton={<Text style={styles.buttonText}>&gt;</Text>}
+          prevButton={<Text style={styles.buttonText}>&lt;</Text>}
           index={1}
           loop={false}
           showsPagination={true}
@@ -67,6 +69,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "white"
+  },
+  buttonText: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#356AA0"
   }
 });
 
