@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import Config from "../../../config.json";
+import { Ionicons } from "@expo/vector-icons";
 
 import { Text, View, StyleSheet } from "react-native";
 
@@ -117,6 +118,7 @@ class WordView extends Component {
               <Text style={styles.ipa} key={ipa}>
                 {ipa}
               </Text>
+              <Ionicons name="md-star" style={styles.star} size={48} />
             </View>
             <View style={styles.definitionWrapper}>
               <Definition definition={definition} />
@@ -153,6 +155,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     color: "#C3D9FF"
+  },
+  star: {
+    color: "goldenrod"
   }
 });
 
