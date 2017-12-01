@@ -5,6 +5,14 @@ import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity, View, Text, StyleSheet } from "react-native";
 
 import { Speech } from "expo";
+import {
+  RkCard,
+  RkTheme,
+  RkStyleSheet,
+  RkText,
+  RkButton,
+  RkModalImg
+} from "react-native-ui-kitten";
 
 class Translation extends Component {
   static propTypes = {
@@ -33,20 +41,24 @@ class Translation extends Component {
     return (
       <View>
         <TouchableOpacity
-          style={styles.press}
           disabled={inProgress}
           activeOpacity={inProgress ? 1 : 0.3}
+          style={styles.press}
           onPress={() => {
             this.setState({ pressed: true });
             this._speak("el", word);
           }}
         >
-          <Text style={styles.translation} key={translation}>
+          <RkText
+            rkType="header1 primaryColor"
+            style={styles.pressItem}
+            key={translation}
+          >
             {translation}
-          </Text>
+          </RkText>
           <Ionicons
             name={inProgress ? "md-volume-up" : "md-volume-down"}
-            style={styles.speaker}
+            style={[styles.pressItem, styles.speaker]}
             size={inProgress ? 32 : 24}
           />
         </TouchableOpacity>
@@ -78,15 +90,16 @@ class Translation extends Component {
 
 const styles = StyleSheet.create({
   press: {
-    flexDirection: "row"
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between"
+  },
+  pressItem: {
+    flex: 1
   },
   speaker: {
-    color: "#CCC"
-  },
-  translation: {
-    fontSize: 48,
-    fontWeight: "bold",
-    color: "#3F4C6B"
+    color: "#CCC",
+    marginLeft: "auto"
   }
 });
 

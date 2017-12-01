@@ -7,6 +7,10 @@ import { WordScreen } from "./src/screens/word";
 import { ListScreen } from "./src/screens/list";
 import { SettingsScreen } from "./src/screens/settings";
 
+import { bootstrap } from "./bootstrap";
+
+bootstrap();
+
 const MainNavigator = TabNavigator(
   {
     List: {

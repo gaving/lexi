@@ -3,8 +3,20 @@ import PropTypes from "prop-types";
 
 import Config from "../../../config.json";
 import { Ionicons } from "@expo/vector-icons";
+import LinearGradient from "react-native-linear-gradient";
 
-import { Text, View, StyleSheet } from "react-native";
+import moment from "moment";
+
+import {
+  RkCard,
+  RkTheme,
+  RkStyleSheet,
+  RkText,
+  RkButton,
+  RkModalImg
+} from "react-native-ui-kitten";
+
+import { ScrollView, Text, View, Image, StyleSheet } from "react-native";
 
 import { AppLoading, Font } from "expo";
 
@@ -17,16 +29,8 @@ class WordView extends Component {
   };
   state = {
     word: "",
-    ipa: "",
-    fontLoaded: false
+    ipa: ""
   };
-  async componentDidMount() {
-    await Font.loadAsync({
-      "open-sans-bold": require("../../../assets/fonts/OpenSans-Bold.ttf")
-    });
-
-    this.setState({ fontLoaded: true });
-  }
   async componentWillMount() {
     const { word } = this.props;
     const ipa = await this.fetchIPA(word);
@@ -41,7 +45,9 @@ class WordView extends Component {
   }
   async fetchTranslation(word) {
     const response = await fetch(
-      `https://translation.googleapis.com/language/translate/v2?key=${Config.GOOGLE_TRANSLATE_API_KEY}`,
+      `https://translation.googleapis.com/language/translate/v2?key=${
+        Config.GOOGLE_TRANSLATE_API_KEY
+      }`,
       {
         method: "post",
         body: JSON.stringify({
@@ -97,68 +103,62 @@ class WordView extends Component {
     return response ? response.results : [];
   }
   render() {
-    if (!this.state.fontLoaded) {
-      return <AppLoading />;
-    }
     const { translation, word, ipa, definition } = this.state;
-    const { focused } = this.props;
+    const { index, focused } = this.props;
+    const bg = [
+      require("../../../assets/img/1.jpg"),
+      require("../../../assets/img/2.jpg"),
+      require("../../../assets/img/3.jpg")
+    ];
 
     return (
-      <View>
-        {this.state.fontLoaded ? (
-          <View style={styles.translationWrapper}>
-            <View style={styles.wordWrapper}>
-              <Translation
-                style={styles.translation}
-                word={word}
-                translation={translation}
-                focused={focused}
-              />
-              <Text style={styles.word}>{word}</Text>
-              <Text style={styles.ipa} key={ipa}>
-                {ipa}
-              </Text>
-              <Ionicons name="md-star" style={styles.star} size={48} />
-            </View>
-            <View style={styles.definitionWrapper}>
-              <Definition definition={definition} />
+      <ScrollView style={styles.root}>
+        <RkCard rkType="article">
+          <Image rkCardImg source={bg[index]} />
+          <View rkCardHeader>
+            <View>
+              <RkText style={styles.title} rkType="header4">
+                {moment().format("dddd, MMMM Do")}
+              </RkText>
+              <RkText rkType="secondary2 hintColor">{`${word} / ${
+                ipa
+              }`}</RkText>
             </View>
           </View>
-        ) : null}
-      </View>
+          <View style={styles.content} rkCardContent>
+            <Translation
+              word={word}
+              translation={translation}
+              focused={focused}
+            />
+            <Definition style={styles.def} definition={definition} />
+          </View>
+          <View rkCardFooter>
+            <RkButton rkType="clear link">
+              <RkText rkType="hintColor">
+                <Ionicons name="md-star" />
+              </RkText>
+              <RkText rkType="primary4 hintColor">18 Likes</RkText>
+            </RkButton>
+          </View>
+        </RkCard>
+      </ScrollView>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  translationWrapper: {
-    justifyContent: "center",
-    alignItems: "center"
+const styles = RkStyleSheet.create(theme => ({
+  root: {
+    backgroundColor: theme.colors.screen.base
   },
-  wordWrapper: {
-    padding: 30,
-    borderBottomColor: "#CCC",
-    borderBottomWidth: 1
+  title: {
+    marginBottom: 5
   },
-  definitionWrapper: {
-    paddingTop: 50,
-    width: 300,
-    height: 300,
-    justifyContent: "center"
-  },
-  word: {
-    fontSize: 28,
-    fontWeight: "bold",
-    color: "#356AA0"
-  },
-  ipa: {
-    fontSize: 20,
-    fontWeight: "bold",
-    color: "#C3D9FF"
-  },
-  star: {
-    color: "goldenrod"
+  content: {
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "space-between"
   }
-});
+}));
 
 export default WordView;

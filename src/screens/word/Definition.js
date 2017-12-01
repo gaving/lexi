@@ -1,7 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { Text, ScrollView, StyleSheet } from "react-native";
+import { View, Text, ScrollView, StyleSheet } from "react-native";
+
+import {
+  RkCard,
+  RkTheme,
+  RkText,
+  RkButton,
+  RkModalImg
+} from "react-native-ui-kitten";
 
 class Definition extends Component {
   static propTypes = {
@@ -13,23 +21,21 @@ class Definition extends Component {
   render() {
     const { definition } = this.props;
     return (
-      <ScrollView>
+      <View>
         {definition.length > 0 &&
           definition.map((definition, i) => (
-            <Text key={i} style={styles.definition}>
+            <RkText rkType="secondary1" style={styles.def} key={i}>
               {`${++i}. ${definition.definition}`}
-            </Text>
+            </RkText>
           ))}
-      </ScrollView>
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  definition: {
-    padding: 5,
-    fontFamily: "open-sans-bold",
-    color: "#36393D"
+  def: {
+    padding: 5
   }
 });
 

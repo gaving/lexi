@@ -6,11 +6,12 @@ import moment from "moment";
 // import DATABASE from "~/assets/db.db";
 import { View, StyleSheet, Text } from "react-native";
 
+import { RkCard, RkText, RkStyleSheet } from "react-native-ui-kitten";
+
 import { FileSystem, Asset, Constants, SQLite } from "expo";
 
 import Ionicons from "react-native-vector-icons/Ionicons";
 
-import Switcher from "./Switcher";
 import WordView from "./WordView";
 
 class WordScreen extends Component {
@@ -50,11 +51,9 @@ class WordScreen extends Component {
     }
   }
 
-  async componentDidMount() {
-    const dayOfYear = moment().dayOfYear();
-    const words = WORD_SET.slice(dayOfYear - 1, dayOfYear + 2);
+  async fetchDatabase() {
     try {
-      const dbPath = FileSystem.documentDirectory + "SQLite/db.db";
+      const dbPath = FileSystem.documentDirectory + "ok";
 
       await this.makeSQLiteDirAsync();
 
@@ -62,19 +61,25 @@ class WordScreen extends Component {
         "https://github.com/florentroques/expo-remote-sqlite-download/blob/master/Chinook_Sqlite.sqlite?raw=true",
         dbPath
       );
+      console.log("Finished downloading o ", dbPath);
 
       const message = await FileSystem.getInfoAsync(dbPath);
+      console.log("info");
 
-      console.log("Finished downloading o ", dbPath);
       console.log(message);
-      const db = SQLite.openDatabase("SQLite/db.db");
+      console.log("contents");
+
+      // const contents = await FileSystem.readAsStringAsync(message.uri);
+      // console.log(contents);
+      const db = await SQLite.openDatabase(message.uri);
+      console.log("---");
       console.log(db);
 
       await db.transaction(
         tx => {
           tx.executeSql(
-            "select * from Album limit 0,1",
-            [],
+            "select * from main.Album where AlbumId=?",
+            [2],
             (_, { rows }) => {
               console.log(JSON.stringify(rows));
             },
@@ -140,6 +145,11 @@ class WordScreen extends Component {
     //     console.log(_array);
     //   });
     // });
+  }
+
+  async componentDidMount() {
+    const dayOfYear = moment().dayOfYear();
+    const words = WORD_SET.slice(dayOfYear - 1, dayOfYear + 2);
 
     this.setState({
       words
@@ -162,11 +172,8 @@ class WordScreen extends Component {
 
     return (
       <View style={styles.container}>
-        <Switcher index={currentIndex} />
         <Swiper
-          showsButtons
-          nextButton={<Text style={styles.buttonText}>&gt;</Text>}
-          prevButton={<Text style={styles.buttonText}>&lt;</Text>}
+          showsButtons={false}
           index={1}
           loop={false}
           showsPagination={true}
@@ -175,7 +182,12 @@ class WordScreen extends Component {
           }}
         >
           {words.map((word, i) => (
-            <WordView key={i} focused={i === currentIndex} word={word} />
+            <WordView
+              key={i}
+              index={i}
+              focused={i === currentIndex}
+              word={word}
+            />
           ))}
         </Swiper>
       </View>
@@ -183,17 +195,12 @@ class WordScreen extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = RkStyleSheet.create(theme => ({
   container: {
     flex: 1,
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: "white"
+    backgroundColor: theme.colors.screen.base
   },
-  buttonText: {
-    fontSize: 28,
-    fontWeight: "bold",
-    color: "#356AA0"
-  }
-});
+  buttonText: {}
+}));
 
 export default WordScreen;
