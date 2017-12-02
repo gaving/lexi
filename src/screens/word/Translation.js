@@ -50,17 +50,12 @@ class Translation extends Component {
           }}
         >
           <RkText
-            rkType="header1 primaryColor"
+            rkType="header1 baseColor"
             style={styles.pressItem}
             key={translation}
           >
-            {translation}
+            {word}
           </RkText>
-          <Ionicons
-            name={inProgress ? "md-volume-up" : "md-volume-down"}
-            style={[styles.pressItem, styles.speaker]}
-            size={inProgress ? 32 : 24}
-          />
         </TouchableOpacity>
       </View>
     );
@@ -88,19 +83,6 @@ class Translation extends Component {
   };
 }
 
-const styles = StyleSheet.create({
-  press: {
-    flex: 1,
-    flexDirection: "row",
-    justifyContent: "space-between"
-  },
-  pressItem: {
-    flex: 1
-  },
-  speaker: {
-    color: "#CCC",
-    marginLeft: "auto"
-  }
-});
+const styles = StyleSheet.create({});
 
 export default Translation;

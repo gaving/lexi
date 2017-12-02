@@ -25,7 +25,10 @@ class Definition extends Component {
         {definition.length > 0 &&
           definition.map((definition, i) => (
             <RkText rkType="secondary1" style={styles.def} key={i}>
-              {`${++i}. ${definition.definition}`}
+              <RkText rkType="primary4" key={i}>
+                {`(${++i}. ${definition.partOfSpeech})`}
+              </RkText>
+              {` ${definition.definition}`}
             </RkText>
           ))}
       </View>

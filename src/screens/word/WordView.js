@@ -16,7 +16,14 @@ import {
   RkModalImg
 } from "react-native-ui-kitten";
 
-import { ScrollView, Text, View, Image, StyleSheet } from "react-native";
+import {
+  ScrollView,
+  Text,
+  View,
+  Image,
+  StyleSheet,
+  TouchableOpacity
+} from "react-native";
 
 import { AppLoading, Font } from "expo";
 
@@ -118,12 +125,17 @@ class WordView extends Component {
           <View rkCardHeader>
             <View>
               <RkText style={styles.title} rkType="header4">
+                {`${translation}`}
+              </RkText>
+              <RkText rkType="secondary2 hintColor">
                 {moment().format("dddd, MMMM Do")}
               </RkText>
-              <RkText rkType="secondary2 hintColor">{`${word} / ${
-                ipa
-              }`}</RkText>
             </View>
+            <TouchableOpacity>
+              <RkText rkType="secondary2 hintColor">
+                <Ionicons name="md-volume-up" size={32} />
+              </RkText>
+            </TouchableOpacity>
           </View>
           <View style={styles.content} rkCardContent>
             <Translation
@@ -133,12 +145,14 @@ class WordView extends Component {
             />
             <Definition style={styles.def} definition={definition} />
           </View>
-          <View rkCardFooter>
-            <RkButton rkType="clear link">
-              <RkText rkType="hintColor">
-                <Ionicons name="md-star" />
+          <View style={styles.section} rkCardFooter>
+            <RkButton rkType="clear">
+              <RkText rkType="hintColor" style={styles.icon}>
+                <Ionicons name="md-heart" />
               </RkText>
-              <RkText rkType="primary4 hintColor">18 Likes</RkText>
+              <RkText rkType="primary4 hintColor" style={styles.label}>
+                18 Likes
+              </RkText>
             </RkButton>
           </View>
         </RkCard>
@@ -158,6 +172,18 @@ const styles = RkStyleSheet.create(theme => ({
     flex: 1,
     flexDirection: "column",
     justifyContent: "space-between"
+  },
+  section: {
+    justifyContent: "center",
+    flexDirection: "row",
+    flex: 1
+  },
+  icon: {
+    fontSize: 20
+  },
+  label: {
+    marginLeft: 8,
+    alignSelf: "flex-end"
   }
 }));
 

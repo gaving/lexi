@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import WORD_SET from "../../../assets/words.json";
 
-import { Text, ScrollView, View, StyleSheet, SectionList } from "react-native";
+import {
+  Text,
+  ScrollView,
+  View,
+  StyleSheet,
+  SectionHistory
+} from "react-native";
 
 import { List, ListItem } from "react-native-elements";
 
@@ -10,10 +16,10 @@ import { ActivityIndicator, Constants } from "expo";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import moment from "moment";
 
-class ListScreen extends Component {
+class HistoryScreen extends Component {
   static navigationOptions = {
-    title: "List",
-    tabBarLabel: "List",
+    title: "History",
+    tabBarLabel: "History",
     headerStyle: {
       paddingTop: Constants.statusBarHeight,
       height: 60 + Constants.statusBarHeight,
@@ -92,4 +98,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ListScreen;
+export default HistoryScreen;

@@ -4,8 +4,9 @@ import { StackNavigator, TabNavigator } from "react-navigation";
 import { Platform } from "react-native";
 
 import { WordScreen } from "./src/screens/word";
-import { ListScreen } from "./src/screens/list";
-import { SettingsScreen } from "./src/screens/settings";
+import { HistoryScreen } from "./src/screens/history";
+import { TranslatorScreen } from "./src/screens/translator";
+import { FavouritesScreen } from "./src/screens/favourites";
 
 import { bootstrap } from "./bootstrap";
 
@@ -13,18 +14,22 @@ bootstrap();
 
 const MainNavigator = TabNavigator(
   {
-    List: {
-      screen: ListScreen,
-      path: "record"
+    History: {
+      screen: HistoryScreen,
+      path: "history"
     },
     Word: {
       screen: WordScreen,
       path: "word",
       params: { word: "0" }
     },
-    Settings: {
-      screen: SettingsScreen,
-      path: "settings"
+    Favourites: {
+      screen: FavouritesScreen,
+      path: "favourites"
+    },
+    Translator: {
+      screen: TranslatorScreen,
+      path: "translator"
     }
   },
   {
