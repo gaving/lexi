@@ -9,11 +9,9 @@ import {
   SectionHistory
 } from "react-native";
 
-import { List, ListItem } from "react-native-elements";
-
 import { ActivityIndicator, Constants } from "expo";
 
-import Ionicons from "react-native-vector-icons/Ionicons";
+import { Ionicons } from "@expo/vector-icons";
 import moment from "moment";
 
 class HistoryScreen extends Component {
@@ -63,30 +61,7 @@ class HistoryScreen extends Component {
       return <ActivityIndicator />;
     }
 
-    return (
-      <View style={styles.container}>
-        <ScrollView>
-          <List containerStyle={{ marginBottom: 20 }}>
-            {words
-              .map((l, i) => {
-                const date = moment()
-                  .dayOfYear(i)
-                  .format("dddd, MMMM Do");
-                return (
-                  <ListItem
-                    roundAvatar
-                    key={i}
-                    title={l}
-                    subtitle={date}
-                    onPress={() => this.onPress(i)}
-                  />
-                );
-              })
-              .reverse()}
-          </List>
-        </ScrollView>
-      </View>
-    );
+    return <View style={styles.container} />;
   }
 }
 

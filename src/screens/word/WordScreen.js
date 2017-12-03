@@ -10,7 +10,7 @@ import { RkCard, RkText, RkStyleSheet } from "react-native-ui-kitten";
 
 import { FileSystem, Asset, Constants, SQLite } from "expo";
 
-import Ionicons from "react-native-vector-icons/Ionicons";
+import { Ionicons } from "@expo/vector-icons";
 
 import WordView from "./WordView";
 

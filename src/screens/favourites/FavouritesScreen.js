@@ -9,11 +9,9 @@ import {
   SectionFavourites
 } from "react-native";
 
-import { Favourites, FavouritesItem } from "react-native-elements";
-
 import { ActivityIndicator, Constants } from "expo";
 
-import Ionicons from "react-native-vector-icons/Ionicons";
+import { Ionicons } from "@expo/vector-icons";
 import moment from "moment";
 
 class FavouritesScreen extends Component {
