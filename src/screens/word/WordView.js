@@ -35,19 +35,17 @@ class WordView extends Component {
     focused: PropTypes.bool
   };
   state = {
-    word: "",
-    ipa: ""
+    isReady: false
   };
   async componentWillMount() {
     const { word } = this.props;
-    const ipa = await this.fetchIPA(word);
     const translation = await this.fetchTranslation(word);
     const definition = await this.fetchDefinition(translation);
     this.setState({
-      ipa,
       word,
       translation,
-      definition
+      definition,
+      isReady: true
     });
   }
   async fetchTranslation(word) {
@@ -73,25 +71,6 @@ class WordView extends Component {
       });
     return response.data.translations[0].translatedText;
   }
-  async fetchIPA(word) {
-    const response = await fetch(
-      "https://qobmuykvqg.execute-api.eu-west-1.amazonaws.com/dev/ipa",
-      {
-        method: "post",
-        body: JSON.stringify({
-          text: word,
-          language: "el"
-        })
-      }
-    )
-      .then(res => {
-        return res.json();
-      })
-      .catch(error => {
-        console.log(error);
-      });
-    return response.text;
-  }
   async fetchDefinition(word) {
     const response = await fetch(
       `https://wordsapiv1.p.mashape.com/words/${word}`,
@@ -110,7 +89,12 @@ class WordView extends Component {
     return response ? response.results : [];
   }
   render() {
-    const { translation, word, ipa, definition } = this.state;
+    const { translation, word, definition, isReady } = this.state;
+
+    if (!isReady) {
+      return <AppLoading />;
+    }
+
     const { index, focused } = this.props;
     const bg = [
       require("../../../assets/img/1.jpg"),

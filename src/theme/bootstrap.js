@@ -4,16 +4,7 @@ import { KittenTheme } from "./theme";
 import { scale, scaleVertical } from "./scale";
 import { Font } from "expo";
 
-export let bootstrap = async () => {
-  await Font.loadAsync({
-    "OpenSans-Bold": require("../../assets/fonts/OpenSans-Bold.ttf"),
-    "Roboto-Bold": require("../../assets/fonts/Roboto-Bold.ttf"),
-    "Roboto-Light": require("../../assets/fonts/Roboto-Light.ttf"),
-    "Roboto-Medium": require("../../assets/fonts/Roboto-Medium.ttf"),
-    "Roboto-Regular": require("../../assets/fonts/Roboto-Regular.ttf"),
-    "Righteous-Regular": require("../../assets/fonts/Righteous-Regular.ttf")
-  });
-
+export let bootstrap = () => {
   RkTheme.setTheme(KittenTheme, null);
 
   /*

@@ -3,7 +3,6 @@ import WORD_SET from "../../../assets/words.json";
 import Swiper from "react-native-swiper";
 import moment from "moment";
 
-// import DATABASE from "~/assets/db.db";
 import { View, StyleSheet, Text } from "react-native";
 
 import { RkCard, RkText, RkStyleSheet } from "react-native-ui-kitten";
@@ -38,114 +37,6 @@ class WordScreen extends Component {
     words: [],
     currentIndex: 1
   };
-
-  //creates a dummy SQLite DB to create the SQLite folder
-  async makeSQLiteDirAsync() {
-    const dbTest = SQLite.openDatabase("db.db");
-
-    try {
-      await dbTest.transaction(tx => tx.executeSql(""));
-    } catch (e) {
-      console.log("error while executing SQL in dummy DB");
-      console.log(e.message);
-    }
-  }
-
-  async fetchDatabase() {
-    try {
-      const dbPath = FileSystem.documentDirectory + "ok";
-
-      await this.makeSQLiteDirAsync();
-
-      await FileSystem.downloadAsync(
-        "https://github.com/florentroques/expo-remote-sqlite-download/blob/master/Chinook_Sqlite.sqlite?raw=true",
-        dbPath
-      );
-      console.log("Finished downloading o ", dbPath);
-
-      const message = await FileSystem.getInfoAsync(dbPath);
-      console.log("info");
-
-      console.log(message);
-      console.log("contents");
-
-      // const contents = await FileSystem.readAsStringAsync(message.uri);
-      // console.log(contents);
-      const db = await SQLite.openDatabase(message.uri);
-      console.log("---");
-      console.log(db);
-
-      await db.transaction(
-        tx => {
-          tx.executeSql(
-            "select * from main.Album where AlbumId=?",
-            [2],
-            (_, { rows }) => {
-              console.log(JSON.stringify(rows));
-            },
-            (etx, error) => {
-              console.log("execute error");
-              console.log(etx);
-              console.log(error);
-            }
-          );
-        },
-        error => {
-          console.log("transaction error");
-          console.log(error);
-        }
-      );
-    } catch (error) {
-      console.log("other error");
-      console.error(error);
-    }
-
-    // const dbAsset = new Asset({
-    //   'name': 'my_database',
-    //   'type': 'db',
-    //   // 'hash': '70c1c7e28cb655995950a34c7ccd71b8', // calculate md5 hash here
-    //   'uri': 'https://github.com/florentroques/expo-remote-sqlite-download/blob/master/Chinook_Sqlite.sqlite?raw=true', // path to the file somewhere on the internet
-    // });
-
-    // const dbAssetFullName = `${dbAsset.name}.${dbAsset.type}`;
-
-    //   await this.makeSQLiteDirAsync();
-    //   await dbAsset.downloadAsyncTo(`SQLite/${dbAssetFullName}`);
-    //   console.log('dbAsset');
-    //   console.log(dbAsset);
-
-    //   const db = SQLite.openDatabase(dbAssetFullName);
-    //   console.log('db');
-    //   console.log(db);
-
-    //   await db.transaction(tx => {
-    //     tx.executeSql(
-    //       'select * from Album LIMIT 0, 1',
-    //       [],
-    //       (_, { rows }) => {
-    //         this.setState({ firstRow: JSON.stringify(rows) });
-    //         console.log(JSON.stringify(rows));
-    //       }
-    //     );
-    //   });
-
-    // const imageURI = Asset.fromModule(DATABASE).uri;
-    // console.log(imageURI);
-
-    // const db = SQLite.openDatabase({
-    //   name: "../../../assets/db.db",
-    //   cache: false
-    // });
-
-    // console.log(db);
-    // console.log(db.path);
-
-    // db.transaction(tx => {
-    //   tx.executeSql(`select * from words`, [], (_, { rows: { _array } }) => {
-    //     console.log(_array);
-    //   });
-    // });
-  }
 
   async componentDidMount() {
     const dayOfYear = moment().dayOfYear();
