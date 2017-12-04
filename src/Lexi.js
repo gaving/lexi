@@ -37,7 +37,6 @@ const MainNavigator = TabNavigator(
     tabBarOptions: {
       activeTintColor: Platform.OS === "ios" ? "#e91e63" : "#fff"
     },
-    navigationOptions: { header: null },
     initialRouteName: "Word"
   }
 );

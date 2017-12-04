@@ -18,14 +18,6 @@ class FavouritesScreen extends Component {
   static navigationOptions = {
     title: "Favourites",
     tabBarLabel: "Favourites",
-    headerStyle: {
-      paddingTop: Constants.statusBarHeight,
-      height: 60 + Constants.statusBarHeight,
-      backgroundColor: "#3F4C6B"
-    },
-    headerTitleStyle: {
-      color: "#fff"
-    },
     tabBarIcon: ({ tintColor, focused }) => (
       <Ionicons
         name={focused ? "ios-heart" : "ios-heart-outline"}
