@@ -22,7 +22,7 @@ const MainNavigator = TabNavigator(
     Word: {
       screen: WordScreen,
       path: "word",
-      params: { word: "0" }
+      params: { id: 0 }
     },
     Favourites: {
       screen: FavouritesScreen,

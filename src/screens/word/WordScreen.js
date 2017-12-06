@@ -30,34 +30,42 @@ class WordScreen extends Component {
     currentIndex: 1
   };
 
-  async componentDidMount() {
+  componentDidMount() {
     const dayOfYear = moment().dayOfYear();
     const words = WORD_SET.slice(dayOfYear - 1, dayOfYear + 2);
+    console.log("mounted");
 
     this.setState({
       words
     });
   }
-  componentWillReceiveProps() {
-    const { state } = this.props.navigation;
+  // componentWillReceiveProps(nextProps) {
+  //   const { state } = this.props.navigation;
 
-    if (state && state.params) {
-      const { word } = state.params;
-      const words = [WORD_SET[word]];
-      this.setState({
-        words
-      });
-    }
-  }
+  //   if (state && state.params) {
+  //     const { id } = state.params;
+  //     const words = [WORD_SET[id]];
+  //     this.setState({
+  //       words
+  //     });
+  //   }
+  // }
   render() {
-    const { currentIndex } = this.state;
-    let { words } = this.state;
+    let { currentIndex, words } = this.state;
+    const { params } = this.props.navigation.state;
+
+    if (params) {
+      const { id } = params;
+      words = [WORD_SET[id]];
+    }
+
+    console.log(words);
 
     return (
       <View style={styles.container}>
         <Swiper
           showsButtons={false}
-          index={1}
+          index={0}
           loop={false}
           showsPagination={true}
           onIndexChanged={index => {

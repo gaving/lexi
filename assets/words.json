@@ -1,820 +1,4092 @@
 [
-  "Άνδρας",
-  "Άνθρωποι",
-  "Άνοιξη",
-  "Αγόρι",
-  "Αιγαίας",
-  "Αντωνυμίες",
-  "Απρίλιος",
-  "Αραβικός",
-  "Αριθμοί",
-  "Αττική",
-  "Αύγουστος",
-  "Γάλλος",
-  "Γαλλία",
-  "Γερμανός",
-  "Γη",
-  "Δάσκαλος",
-  "Δεκέμβριος",
-  "Δευτέρα",
-  "Διάφορα",
-  "Δουλειά",
-  "Εβραϊκά",
-  "Εγώ",
-  "Ελλάδα",
-  "Ενδύματα",
-  "Εξαίρεση",
-  "Επίθετα",
-  "Εποχές",
-  "Ηλεκτρονική",
-  "Ημέρες",
-  "Θεός",
-  "Θησαυρού",
-  "Ιανουάριος",
-  "Ιαπωνικά",
-  "Ιούλιος",
-  "Ιούνιος",
-  "Ισπανικά",
-  "Ιταλικά",
-  "Κένταυρος",
-  "Καλοκαίρι",
-  "Κοινωνία",
-  "Κορέας",
-  "Κυριακή",
-  "Κόμμα",
-  "Λερναία",
-  "Μάιος",
-  "Μάρτιος",
-  "Μήδεια",
-  "Ιφιγένεια",
-  "Ποσειδώνας",
-  "Μήνες",
-  "Μαθηματικά",
-  "Μεταφορά",
-  "Μετρήσεις",
-  "Νοέμβριος",
-  "Οδηγίες",
-  "Οκτώβριος",
-  "Ολλανδός",
-  "Ορθογράφος",
-  "Ουσιαστικά",
-  "Ούγγρος",
-  "Πέμπτη",
-  "Παρασκευή",
-  "Πελοπόννησος",
-  "Πορτογάλος",
-  "Ποτά",
-  "Πτώση",
-  "Ρήματα",
-  "Ρωσικός",
-  "Σάββατο",
-  "Σέργιος",
-  "Σεπτέμβριος",
-  "Σπίτι",
-  "Σώμα",
-  "Τέχνη",
-  "Τετάρτη",
-  "Τηλεόραση",
-  "Τοποθεσία",
-  "Τρίτη",
-  "Τροφή",
-  "Υλικά",
-  "Φέγγω",
-  "Φεβρουάριος",
-  "Φύση",
-  "Χειμώνας",
-  "Χρόνος",
-  "Χρώμα",
-  "άγγελος",
-  "άγκυρα",
-  "άκρο",
-  "άλλος",
-  "άλμα",
-  "άλογο",
-  "άμμος",
-  "άνεμος",
-  "άνθρωπος",
-  "άνοιξη",
-  "άντρας ",
-  "άποικος",
-  "άρρωστος",
-  "άσκηση",
-  "άσχημος",
-  "έγκαυμα",
-  "έδαφος",
-  "έλξη",
-  "ένα",
-  "έξω",
-  "έπαινος",
-  "έρχομαι ",
-  "έτοιμος",
-  "έτος",
-  "έχει",
-  "έχω",
-  "ήλιος",
-  "ήμισυ",
-  "ήσυχα",
-  "ήταν",
-  "ήχος",
-  "ίντσα",
-  "ίππος",
-  "αέρας",
-  "αίθουσα",
-  "αίμα",
-  "αβαθής",
-  "αγάπη",
-  "αγγίζετε",
-  "αγγίζω",
-  "αγγελία",
-  "αγγούρι",
-  "αγελάδα",
-  "αγκάθι",
-  "αγκίστρι",
-  "αγκαλιά",
-  "αγκινάρα",
-  "αγκώνας",
-  "αγοράσετε",
-  "αγορά",
-  "αγρόκτημα",
-  "αγόρι",
-  "αδειάζω",
-  "αδελφή",
-  "αδελφός",
-  "αδύναμος",
-  "αεροδρόμιο",
-  "αεροπλάνο",
-  "αθλητισμός",
-  "αθροίζω",
-  "αισθάνομαι",
-  "αιτία",
-  "αιτιατική",
-  "ακολουθήστε",
-  "ακούσουν",
-  "ακούστε",
-  "ακριβός",
-  "αλάτι",
-  "αλλάζω",
-  "αναβλύζω",
-  "ανακατεύετε",
-  "αναμειγνύεται",
-  "ανατολή",
-  "ανεμιστήρας",
-  "ανθρώπινος",
-  "ανοιχτός",
-  "ανοιχτό",
-  "ανύψωση",
-  "απορρίμματα",
-  "απόγευμα",
-  "από",
-  "απώτερο",
-  "αρίθμηση",
-  "αργός",
-  "αριστερά",
-  "αρσενικός",
-  "ασήμι",
-  "ασθενής",
-  "αστέρι",
-  "αστυνομία",
-  "αυγό",
-  "αυλή",
-  "αυτά",
-  "αυτές",
-  "αυτή",
-  "αυτί",
-  "αυτοί",
-  "αυτοκίνητο",
-  "αυτός",
-  "αυτό",
-  "αύριο",
-  "βάρκα",
-  "βάρος",
-  "βαθύς",
-  "βαρύς",
-  "βασίλισσα",
-  "βασιλιάς",
-  "βεγγαλικό",
-  "βελόνα",
-  "βενζίνη",
-  "βιβλίο",
-  "βιβλιοθήκη",
-  "βλάβη",
-  "βλέπω",
-  "βλαστός",
-  "βοήθεια",
-  "βοδινό κρέας",
-  "βολή",
-  "βουνό",
-  "βρείτε",
-  "βροχή",
-  "βρώμικος",
-  "βόρεια",
-  "γάλα",
-  "γάμου",
-  "γάτα",
-  "γέλιο",
-  "γέννα",
-  "γένος",
-  "γέρος",
-  "γέφυρα",
-  "γείτονας",
-  "γεια",
-  "γειτόνισσα",
-  "γενειάδα",
-  "γεύση",
-  "γης",
-  "γιαγιά",
-  "γιατί ",
-  "γιατρός",
-  "για",
-  "γκαράζ",
-  "γκρί",
-  "γκρι",
-  "γλώσσα",
-  "γνωρίζω",
-  "γογγύζω",
-  "γράμμα",
-  "γράφω",
-  "γρήγορα",
-  "γραμμή",
-  "γραμματέας",
-  "γραμματική",
-  "γρασίδι",
-  "γραφείο",
-  "γριά",
-  "γυναίκα",
-  "γωνία",
-  "γόνατο",
-  "δάσος",
-  "δάχτυλο",
-  "δέντρο",
-  "δέρμα",
-  "δίκαιο",
-  "δίκτυο",
-  "δακρύζω",
-  "δακτύλιος",
-  "δανείζω",
-  "δείπνο",
-  "δεν",
-  "δεξιά",
-  "δεύτερος",
-  "δηλητήριο",
-  "δημοσιογράφος",
-  "διάλειμμα",
-  "διάστημα",
-  "διαβάζω",
-  "διακοπή",
-  "διαμάντι",
-  "διαμέρισμα",
-  "διδάσκω",
-  "διευθυντής",
-  "δικαστήριο",
-  "δικηγόρος",
-  "δισεκατομμύριο",
-  "δολάριο",
-  "δολοφονία",
-  "δουλειά",
-  "δροσερός",
-  "δρόμου",
-  "δυνατά",
-  "δυσαρέσκεια",
-  "δωμάτιο",
-  "είμαι",
-  "δόντι",
-  "είτε",
-  "δύση",
-  "δώρο",
-  "είδα",
-  "είπα",
-  "είχα",
-  "είδος",
-  "είκοσι",
-  "εβδομάδα",
-  "εγγόνι",
-  "εγκέφαλος",
-  "εγώ ",
-  "εδάφους",
-  "εδώ",
-  "εθνικότητα",
-  "ειδικός",
-  "εικόνα",
-  "ειρήνη",
-  "ειρωνεία",
-  "εισιτήριο",
-  "εκατομμύριο",
-  "εκατοστόμετρο",
-  "εκεί",
-  "εκκλησία",
-  "εκλογή",
-  "εκραγεί",
-  "εκστρατεία",
-  "εκτός",
-  "ελάχιστα",
-  "ελευθερία",
-  "εμείς",
-  "εμπρός",
-  "ενέργεια",
-  "ενήλικας",
-  "ενδύματα",
-  "εννιά",
-  "επάνω",
-  "επίθεση",
-  "επίθετο",
-  "επειδή",
-  "επιστήμη",
-  "επιστολή",
-  "εποχή",
-  "εργαλείο",
-  "εργασία",
-  "ερωτησεις",
-  "εσείς",
-  "εστιατόριο",
-  "εσύ",
-  "εταιρεία",
-  "ευγενικός",
-  "ευθεία",
-  "ευλογία",
-  "ευρύς",
-  "ευτυχία",
-  "ευτυχισμένος",
-  "ευχή",
-  "ευχαριστώ",
-  "εφημερίδα",
-  "εύφορη",
-  "ζάχαρη",
-  "ζεστός",
-  "ζωγραφίζω",
-  "ζωντανός",
-  "ζώο",
-  "ηθοποιός",
-  "ηλεκτρονικός",
-  "ημέρα",
-  "ημερομηνία",
-  "θάλασσα",
-  "θάνατος",
-  "θέατρο",
-  "θέλω",
-  "θαυμάζω",
-  "θερμοκρασία",
-  "θερμότητα",
-  "θηλυκός",
-  "θρησκεία",
-  "θρησκευτικά",
-  "θύμα",
-  "ιατρική",
-  "ιδρώτας",
-  "ισχυρός",
-  "ισόγειο",
-  "κάγκελα",
-  "κάθε",
-  "κάθονται",
-  "κάμερα",
-  "κάνω",
-  "κάρτα",
-  "κάτι",
-  "κάτω",
-  "κάτω μέρος",
-  "κέικ",
-  "κήπος",
-  "κήρυκας",
-  "κίτρινος",
-  "καίω",
-  "καθαρίστε",
-  "καινούργιος",
-  "και",
-  "κακός",
-  "καλά",
-  "καλαμπόκι",
-  "καλημέρα",
-  "καλησπέρα",
-  "καλλιεργώ",
-  "καλλιτέχνης",
-  "καλός",
-  "καρέκλα",
-  "καρδιά",
-  "κατάστημα",
-  "κατασκήνωση",
-  "κατασκευή",
-  "κατεύθυνση",
-  "καυτό",
-  "καφές",
-  "καφέ",
-  "καύση",
-  "κείμενο",
-  "κελαρύζω",
-  "κεφάλαιο",
-  "κεφάλι",
-  "κιλό",
-  "κινέζικα",
-  "κινητήρας",
-  "κινητό",
-  "κλήρωση",
-  "κλήση",
-  "κλαίω",
-  "κλείνω",
-  "κλειδαριά",
-  "κοιλάδα",
-  "κοιλιά",
-  "κοιτάζω",
-  "κολυμπώ",
-  "κομμάτι",
-  "κοντά",
-  "κοντός",
-  "κορίτσι",
-  "κορυφή",
-  "κοστούμι",
-  "κοτόπουλο",
-  "κουζίνα",
-  "κουτάλι",
-  "κουτί",
-  "κουφός",
-  "κούνημα",
-  "κρέμονται",
-  "κρασί",
-  "κραυγή",
-  "κρεβάτι",
-  "κρεμαλα",
-  "κρύο",
-  "κτίριο",
-  "κυπαρίσσι",
-  "κυρτή",
-  "κόβω",
-  "κόκκινος",
-  "κόκκινο",
-  "κόλαση",
-  "κόλλα",
-  "κόρη",
-  "κόσμος",
-  "κύκλος",
-  "κύμα",
-  "κύπελλο",
-  "λάμπα",
-  "λάστιχο",
-  "λέξη",
-  "λέσχη",
-  "λέω",
-  "λίγο",
-  "λίμνη",
-  "λίρα",
-  "λαιμός",
-  "λεκές",
-  "λεμόνι",
-  "λεπτός",
-  "λεπτό",
-  "λευκό",
-  "λευτεριά",
-  "λεωφορείο",
-  "λιγότερο",
-  "λιώσει",
-  "λουλούδι",
-  "λυπημένος",
-  "λόφος",
-  "μάγειρας",
-  "μάθετε",
-  "μάτι",
-  "μέλισσα",
-  "μέσα",
-  "μέσος",
-  "μέταλλο",
-  "μήλο",
-  "μήνας",
-  "μαγείρισσα",
-  "μαγκούρα",
-  "μαζί",
-  "μακριά",
-  "μακρύς",
-  "μαλακός",
-  "μαλλιά",
-  "μαχαίρι",
-  "μαύρος",
-  "μεγάλος",
-  "μεγάλο",
-  "μεγαλώνουν",
-  "μεσημεριανό",
-  "μετά",
-  "μετανάστευση",
-  "μεταφορά",
-  "μετρητής",
-  "μητέρα",
-  "μικρά",
-  "μικρός",
-  "μιλήσετε",
-  "μιλώ",
-  "μισός",
-  "μολύβι",
-  "μουσική",
-  "μπάλα",
-  "μπάντα",
-  "μπανάνα",
-  "μπαρ",
-  "μπλε",
-  "μπορώ",
-  "μπουκάλι",
-  "μπράτσο",
-  "μπύρα",
-  "μυρμήγκι",
-  "μυρωδιά",
-  "μωρό",
-  "μόλις",
-  "μόνο",
-  "μύγα",
-  "μύτη",
-  "νέος",
-  "νίκη",
-  "ναι",
-  "νεκρός",
-  "νερό",
-  "νησί",
-  "νικήσει",
-  "νοιώθω",
-  "νομίζω",
-  "νομοσχέδιο",
-  "νοσοκομείο",
-  "νόσος",
-  "νότια",
-  "νύχτα",
-  "ξέρω",
-  "ξανά",
-  "ξαπλώνω",
-  "ξενοδοχείο",
-  "ξυπνήστε",
-  "ξύλο",
-  "οίκος",
-  "οδηγώ",
-  "οθόνη",
-  "οικογένεια",
-  "ομάδα",
-  "οροφή",
-  "οστό",
-  "ουρανός",
-  "πάγος",
-  "πάλη",
-  "πάλι",
-  "πάνω",
-  "πάρκο",
-  "πάτωμα",
-  "πάχους",
-  "πάω",
-  "πέτρα",
-  "πίσω",
-  "παίζω",
-  "παίχτης",
-  "παγκάκι",
-  "πάγκος",
-  "παιδί",
-  "παιχνίδι",
-  "παιχνιδι",
-  "παλτό",
-  "πανεπιστήμιο",
-  "παντελόνι",
-  "παντρευτεί",
-  "παπάς",
-  "παπούτσια",
-  "παππούς",
-  "παράδειγμα",
-  "παράδεισος",
-  "παράθυρο",
-  "παρά",
-  "παραδείγματος",
-  "παραδειγματάκια",
-  "παραλία",
-  "πατέρας",
-  "παύση",
-  "περάσει",
-  "περίφημος",
-  "περιβάλλον",
-  "περιοδικό",
-  "περισσεύω",
-  "περισσότερο",
-  "περπατώ",
-  "πετρέλαιο",
-  "πεύκα",
-  "πηλός",
-  "πιγκουίνος",
-  "πιρούνι",
-  "πισίνα",
-  "πλάκα",
-  "πλήθος",
-  "πλήκτρο",
-  "πλαστική ύλη",
-  "πλατεία",
-  "πλευρά",
-  "πληρώνουν *",
-  "πλοίο",
-  "πλούσιος",
-  "πλύση",
-  "ποδήλατο",
-  "ποια",
-  "ποιος",
-  "ποιο",
-  "πολιτεία",
-  "πολλά",
-  "πολύ",
-  "ποντίκι",
-  "πορτοκάλι",
-  "ποτάμι",
-  "ποτήρι",
-  "ποτό",
-  "πουκάμισο",
-  "πουλί",
-  "πού",
-  "πράξη",
-  "πράσινος",
-  "πρέπει",
-  "πρίγκιπας",
-  "πριν",
-  "προς",
-  "προσευχή",
-  "προσεύχομαι",
-  "πρωί",
-  "πρωινό",
-  "πρόγραμμα",
-  "πρόεδρος",
-  "πρόσωπο",
-  "πρότυπο",
-  "πτώση",
-  "πυρηνικός",
-  "πωλήσει",
-  "πως",
-  "πόδι",
-  "πόλη",
-  "πόνος",
-  "πώς",
-  "ρήμα",
-  "ρίζα",
-  "ραδιόφωνο",
-  "ροζ",
-  "ρολόι",
-  "ρύζι",
-  "σήμα",
-  "σήμερα",
-  "σαλιγκάρι",
-  "σαν",
-  "σαπούνι",
-  "σειρά",
-  "σεισμός",
-  "σελίδα",
-  "σερβιτόρος",
-  "σημείο",
-  "σημείωση",
-  "σιδηροδρομικός",
-  "σιωπή",
-  "σκάβω",
-  "σκληρά",
-  "σκοτάδι",
-  "σκοτώσει",
-  "σκόνη",
-  "σκότους",
-  "σκύλος",
-  "σοβαρότητα",
-  "σούπα",
-  "σπάγκος",
-  "σπίτι",
-  "σπουδαίος",
-  "σπόρος",
-  "στάση",
-  "στέγη",
-  "σταθμό",
-  "στεγνώσει",
-  "στενός",
-  "στεφάνι",
-  "στρατιώτης",
-  "στρατός",
-  "στρογγυλό",
-  "στροφή",
-  "στυλό",
-  "συγγένεια",
-  "συγγραφέας",
-  "συγκάτοικος",
-  "συγκίνηση",
-  "συγκοινωνία",
-  "συγκρίνω",
-  "συγχύζω",
-  "συλλογή",
-  "σφίγγω",
-  "σφιχτός",
-  "σφύζω",
-  "σχίσιμο",
-  "σχολείο",
-  "σύζυγός",
-  "σύλληψη",
-  "σύμβαση",
-  "σύμφωνο",
-  "σύννεφο",
-  "σώμα",
-  "τέσσερις",
-  "τέχνη",
-  "ταινία",
-  "ταυτόχρονα",
-  "τείνω",
-  "τελεία",
-  "τεχνολογία",
-  "τηλέφωνο",
-  "τηλεόραση",
-  "τιμή",
-  "τι",
-  "τοίχος",
-  "τοποθεσία",
-  "τουαλέτα",
-  "το",
-  "το στόμα",
-  "τράπεζα",
-  "τρένο",
-  "τρέξιμο",
-  "τρέχει",
-  "τραγουδώ",
-  "τραγούδι",
-  "τραπέζι",
-  "τροφή",
-  "τρύπα",
-  "τρώω",
-  "τσάι",
-  "τσάντα",
-  "τσέπη",
-  "τυρί",
-  "τυφλός",
-  "τώρα",
-  "υγιής",
-  "υγρός",
-  "υλικό",
-  "υπάλληλος",
-  "υπάρχω",
-  "υπνοδωμάτιο",
-  "υπολογιστής",
-  "υπουργείο",
-  "υπόδειγμα",
-  "υψηλός",
-  "φάρμακο",
-  "φάω",
-  "φέρουν",
-  "φίλος",
-  "φαρμακείο",
-  "φεγγάρι",
-  "φεγγίτης",
-  "φθηνά",
-  "φθορά",
-  "φιλί",
-  "φοιτητής",
-  "φορτηγό",
-  "φούστα",
-  "φτερό",
-  "φτωχός",
-  "φυλή",
-  "φυλακή",
-  "φυτό",
-  "φωνήεν",
-  "φωνή",
-  "φως",
-  "φωτιά",
-  "φωτογραφία",
-  "φωτός",
-  "φόρεμα",
-  "φύλλα",
-  "φύλλο",
-  "φύλο",
-  "φύση",
-  "χάνουν",
-  "χάρτης",
-  "χέρι",
-  "χαίρε",
-  "χαλκός",
-  "χαμηλός",
-  "χαμόγελο",
-  "χαρτί",
-  "χείλη",
-  "χειμώνας",
-  "χθες",
-  "χιόνι",
-  "χοίρος",
-  "χοιρινό",
-  "χορεύουν",
-  "χρήματα",
-  "χρειάζομαι",
-  "χρυσός",
-  "χρόνος",
-  "χρώμα",
-  "χυμός",
-  "χύμα",
-  "χώρα",
-  "ψάρι",
-  "ψηλός",
-  "ψυχή",
-  "ψωμί",
-  "ψωμί ",
-  "ωκεανών",
-  "ωραία",
-  "ωραίος",
-  "όλος",
-  "όμοιος",
-  "όμορφος",
-  "όμως",
-  "όνειρο",
-  "όνομα",
-  "όπλο",
-  "όργανο",
-  "ότι",
-  "όχι",
-  "ύπνος",
-  "ώθηση",
-  "ώμος",
-  "ώρα"
+  {
+    "id": 0,
+    "source": "κλήση",
+    "translation": "call"
+  },
+  {
+    "id": 1,
+    "source": "ώρα",
+    "translation": "time"
+  },
+  {
+    "id": 2,
+    "source": "στροφή",
+    "translation": "turn"
+  },
+  {
+    "id": 3,
+    "source": "ελευθερία",
+    "translation": "freedom"
+  },
+  {
+    "id": 4,
+    "source": "αστέρι",
+    "translation": "star"
+  },
+  {
+    "id": 5,
+    "source": "κλείνω",
+    "translation": "close"
+  },
+  {
+    "id": 6,
+    "source": "Άνδρας",
+    "translation": "Man"
+  },
+  {
+    "id": 7,
+    "source": "κλειδαριά",
+    "translation": "lock"
+  },
+  {
+    "id": 8,
+    "source": "Αντωνυμίες",
+    "translation": "Antonyms"
+  },
+  {
+    "id": 9,
+    "source": "στυλό",
+    "translation": "pen"
+  },
+  {
+    "id": 10,
+    "source": "παπούτσια",
+    "translation": "shoes"
+  },
+  {
+    "id": 11,
+    "source": "κοιλιά",
+    "translation": "belly"
+  },
+  {
+    "id": 12,
+    "source": "Αραβικός",
+    "translation": "Arabic"
+  },
+  {
+    "id": 13,
+    "source": "κοιτάζω",
+    "translation": "look"
+  },
+  {
+    "id": 14,
+    "source": "Γάλλος",
+    "translation": "French"
+  },
+  {
+    "id": 15,
+    "source": "τροφή",
+    "translation": "food"
+  },
+  {
+    "id": 16,
+    "source": "στάση",
+    "translation": "stop"
+  },
+  {
+    "id": 17,
+    "source": "κομμάτι",
+    "translation": "piece"
+  },
+  {
+    "id": 18,
+    "source": "Γερμανός",
+    "translation": "German"
+  },
+  {
+    "id": 19,
+    "source": "πλοίο",
+    "translation": "ship"
+  },
+  {
+    "id": 20,
+    "source": "μαύρος",
+    "translation": "black"
+  },
+  {
+    "id": 21,
+    "source": "ηλεκτρονικός",
+    "translation": "electronic"
+  },
+  {
+    "id": 22,
+    "source": "κορίτσι",
+    "translation": "girl"
+  },
+  {
+    "id": 23,
+    "source": "Δευτέρα",
+    "translation": "Monday"
+  },
+  {
+    "id": 24,
+    "source": "χαίρε",
+    "translation": "rejoice"
+  },
+  {
+    "id": 25,
+    "source": "υπνοδωμάτιο",
+    "translation": "bedroom"
+  },
+  {
+    "id": 26,
+    "source": "και",
+    "translation": "and"
+  },
+  {
+    "id": 27,
+    "source": "κοστούμι",
+    "translation": "suit"
+  },
+  {
+    "id": 28,
+    "source": "Ελλάδα",
+    "translation": "Hellas"
+  },
+  {
+    "id": 29,
+    "source": "κοτόπουλο",
+    "translation": "chicken"
+  },
+  {
+    "id": 30,
+    "source": "Ηλεκτρονική",
+    "translation": "Electronics"
+  },
+  {
+    "id": 31,
+    "source": "κουζίνα",
+    "translation": "kitchen"
+  },
+  {
+    "id": 32,
+    "source": "Θεός",
+    "translation": "God"
+  },
+  {
+    "id": 33,
+    "source": "κουτάλι",
+    "translation": "spoon"
+  },
+  {
+    "id": 34,
+    "source": "Ιανουάριος",
+    "translation": "January"
+  },
+  {
+    "id": 35,
+    "source": "Ποσειδώνας",
+    "translation": "Poseidon"
+  },
+  {
+    "id": 36,
+    "source": "Ιφιγένεια",
+    "translation": "Iphigenia"
+  },
+  {
+    "id": 37,
+    "source": "κουφός",
+    "translation": "deaf"
+  },
+  {
+    "id": 38,
+    "source": "Ιούλιος",
+    "translation": "July"
+  },
+  {
+    "id": 39,
+    "source": "τηλέφωνο",
+    "translation": "phone"
+  },
+  {
+    "id": 40,
+    "source": "δηλητήριο",
+    "translation": "poison"
+  },
+  {
+    "id": 41,
+    "source": "Μήνες",
+    "translation": "Months"
+  },
+  {
+    "id": 42,
+    "source": "κρασί",
+    "translation": "wine"
+  },
+  {
+    "id": 43,
+    "source": "Κένταυρος",
+    "translation": "Centaur"
+  },
+  {
+    "id": 44,
+    "source": "σοβαρότητα",
+    "translation": "seriousness"
+  },
+  {
+    "id": 45,
+    "source": "κραυγή",
+    "translation": "scream"
+  },
+  {
+    "id": 46,
+    "source": "Κόμμα",
+    "translation": "Party"
+  },
+  {
+    "id": 47,
+    "source": "κρεβάτι",
+    "translation": "bed"
+  },
+  {
+    "id": 48,
+    "source": "Μάρτιος",
+    "translation": "March"
+  },
+  {
+    "id": 49,
+    "source": "κρεμαλα",
+    "translation": "gallows"
+  },
+  {
+    "id": 50,
+    "source": "Ιταλικά",
+    "translation": "Italian"
+  },
+  {
+    "id": 51,
+    "source": "Ισπανικά",
+    "translation": "Spanish"
+  },
+  {
+    "id": 52,
+    "source": "κτίριο",
+    "translation": "building"
+  },
+  {
+    "id": 53,
+    "source": "Κυριακή",
+    "translation": "Sunday"
+  },
+  {
+    "id": 54,
+    "source": "λέσχη",
+    "translation": "club"
+  },
+  {
+    "id": 55,
+    "source": "κυπαρίσσι",
+    "translation": "cypress"
+  },
+  {
+    "id": 56,
+    "source": "Μετρήσεις",
+    "translation": "Measurements"
+  },
+  {
+    "id": 57,
+    "source": "κυρτή",
+    "translation": "curved"
+  },
+  {
+    "id": 58,
+    "source": "Οκτώβριος",
+    "translation": "October"
+  },
+  {
+    "id": 59,
+    "source": "κόβω",
+    "translation": "cut"
+  },
+  {
+    "id": 60,
+    "source": "Ορθογράφος",
+    "translation": "Horoscope"
+  },
+  {
+    "id": 61,
+    "source": "κόκκινος",
+    "translation": "red"
+  },
+  {
+    "id": 62,
+    "source": "Ούγγρος",
+    "translation": "Hungarian"
+  },
+  {
+    "id": 63,
+    "source": "τραγουδώ",
+    "translation": "sing"
+  },
+  {
+    "id": 64,
+    "source": "κόλαση",
+    "translation": "hell"
+  },
+  {
+    "id": 65,
+    "source": "Παρασκευή",
+    "translation": "Friday"
+  },
+  {
+    "id": 66,
+    "source": "Αγόρι",
+    "translation": "Boy"
+  },
+  {
+    "id": 67,
+    "source": "γρασίδι",
+    "translation": "grass"
+  },
+  {
+    "id": 68,
+    "source": "βλαστός",
+    "translation": "shoot"
+  },
+  {
+    "id": 69,
+    "source": "κόρη",
+    "translation": "daughter"
+  },
+  {
+    "id": 70,
+    "source": "Ποτά",
+    "translation": "Drinks"
+  },
+  {
+    "id": 71,
+    "source": "κόσμος",
+    "translation": "world"
+  },
+  {
+    "id": 72,
+    "source": "Σέργιος",
+    "translation": "Sergius"
+  },
+  {
+    "id": 73,
+    "source": "ουρανός",
+    "translation": "heaven"
+  },
+  {
+    "id": 74,
+    "source": "δισεκατομμύριο",
+    "translation": "billion"
+  },
+  {
+    "id": 75,
+    "source": "αγκαλιά",
+    "translation": "hug"
+  },
+  {
+    "id": 76,
+    "source": "κύπελλο",
+    "translation": "cup"
+  },
+  {
+    "id": 77,
+    "source": "Σπίτι",
+    "translation": "Home"
+  },
+  {
+    "id": 78,
+    "source": "ιατρική",
+    "translation": "medicine"
+  },
+  {
+    "id": 79,
+    "source": "λάμπα",
+    "translation": "light bulb"
+  },
+  {
+    "id": 80,
+    "source": "Τοποθεσία",
+    "translation": "Location"
+  },
+  {
+    "id": 81,
+    "source": "γλώσσα",
+    "translation": "language"
+  },
+  {
+    "id": 82,
+    "source": "λέξη",
+    "translation": "word"
+  },
+  {
+    "id": 83,
+    "source": "Υλικά",
+    "translation": "Materials"
+  },
+  {
+    "id": 84,
+    "source": "Οδηγίες",
+    "translation": "Instructions"
+  },
+  {
+    "id": 85,
+    "source": "Φύση",
+    "translation": "Nature"
+  },
+  {
+    "id": 86,
+    "source": "φαρμακείο",
+    "translation": "pharmacy"
+  },
+  {
+    "id": 87,
+    "source": "λέω",
+    "translation": "I say"
+  },
+  {
+    "id": 88,
+    "source": "Χρόνος",
+    "translation": "Year"
+  },
+  {
+    "id": 89,
+    "source": "μαγείρισσα",
+    "translation": "cook"
+  },
+  {
+    "id": 90,
+    "source": "λίμνη",
+    "translation": "Lake"
+  },
+  {
+    "id": 91,
+    "source": "άγκυρα",
+    "translation": "anchor"
+  },
+  {
+    "id": 92,
+    "source": "ακούστε",
+    "translation": "listen up"
+  },
+  {
+    "id": 93,
+    "source": "λίρα",
+    "translation": "pound"
+  },
+  {
+    "id": 94,
+    "source": "άλμα",
+    "translation": "jump"
+  },
+  {
+    "id": 95,
+    "source": "για",
+    "translation": "for"
+  },
+  {
+    "id": 96,
+    "source": "λεκές",
+    "translation": "stain"
+  },
+  {
+    "id": 97,
+    "source": "άνεμος",
+    "translation": "wind"
+  },
+  {
+    "id": 98,
+    "source": "λεμόνι",
+    "translation": "lemon"
+  },
+  {
+    "id": 99,
+    "source": "άντρας ",
+    "translation": "man"
+  },
+  {
+    "id": 100,
+    "source": "νησί",
+    "translation": "island"
+  },
+  {
+    "id": 101,
+    "source": "μπορώ",
+    "translation": "can"
+  },
+  {
+    "id": 102,
+    "source": "λεπτό",
+    "translation": "minute, thin"
+  },
+  {
+    "id": 103,
+    "source": "άρρωστος",
+    "translation": "sick"
+  },
+  {
+    "id": 104,
+    "source": "πολλά",
+    "translation": "many"
+  },
+  {
+    "id": 105,
+    "source": "λευκό",
+    "translation": "white"
+  },
+  {
+    "id": 106,
+    "source": "έδαφος",
+    "translation": "terrain"
+  },
+  {
+    "id": 107,
+    "source": "κόλλα",
+    "translation": "glue"
+  },
+  {
+    "id": 108,
+    "source": "λεωφορείο",
+    "translation": "bus"
+  },
+  {
+    "id": 109,
+    "source": "έξω",
+    "translation": "outside"
+  },
+  {
+    "id": 110,
+    "source": "λιγότερο",
+    "translation": "less"
+  },
+  {
+    "id": 111,
+    "source": "έτοιμος",
+    "translation": "ready"
+  },
+  {
+    "id": 112,
+    "source": "φίλος",
+    "translation": "friend"
+  },
+  {
+    "id": 113,
+    "source": "λιώσει",
+    "translation": "melt"
+  },
+  {
+    "id": 114,
+    "source": "έχει",
+    "translation": "he's got"
+  },
+  {
+    "id": 115,
+    "source": "μπάλα",
+    "translation": "ball"
+  },
+  {
+    "id": 116,
+    "source": "αυτός",
+    "translation": "he"
+  },
+  {
+    "id": 117,
+    "source": "λυπημένος",
+    "translation": "sad"
+  },
+  {
+    "id": 118,
+    "source": "ήμισυ",
+    "translation": "half"
+  },
+  {
+    "id": 119,
+    "source": "μπλε",
+    "translation": "blue"
+  },
+  {
+    "id": 120,
+    "source": "μάγειρας",
+    "translation": "cook"
+  },
+  {
+    "id": 121,
+    "source": "ίντσα",
+    "translation": "inch"
+  },
+  {
+    "id": 122,
+    "source": "λόφος",
+    "translation": "hill"
+  },
+  {
+    "id": 123,
+    "source": "μάθετε",
+    "translation": "learn"
+  },
+  {
+    "id": 124,
+    "source": "αίθουσα",
+    "translation": "room"
+  },
+  {
+    "id": 125,
+    "source": "μάτι",
+    "translation": "eye"
+  },
+  {
+    "id": 126,
+    "source": "αγάπη",
+    "translation": "love"
+  },
+  {
+    "id": 127,
+    "source": "μέλισσα",
+    "translation": "bee"
+  },
+  {
+    "id": 128,
+    "source": "αγγίζω",
+    "translation": "touch"
+  },
+  {
+    "id": 129,
+    "source": "μέσα",
+    "translation": "inside"
+  },
+  {
+    "id": 130,
+    "source": "αγγούρι",
+    "translation": "cucumber"
+  },
+  {
+    "id": 131,
+    "source": "μέσος",
+    "translation": "average"
+  },
+  {
+    "id": 132,
+    "source": "αγκάθι",
+    "translation": "Thorn"
+  },
+  {
+    "id": 133,
+    "source": "σκύλος",
+    "translation": "dog"
+  },
+  {
+    "id": 134,
+    "source": "μήλο",
+    "translation": "apple"
+  },
+  {
+    "id": 135,
+    "source": "Τηλεόραση",
+    "translation": "TV"
+  },
+  {
+    "id": 136,
+    "source": "μήνας",
+    "translation": "month"
+  },
+  {
+    "id": 137,
+    "source": "αγοράσετε",
+    "translation": "buy"
+  },
+  {
+    "id": 138,
+    "source": "Αύγουστος",
+    "translation": "August"
+  },
+  {
+    "id": 139,
+    "source": "αδελφή",
+    "translation": "sister"
+  },
+  {
+    "id": 140,
+    "source": "μαγκούρα",
+    "translation": "mango"
+  },
+  {
+    "id": 141,
+    "source": "αγρόκτημα",
+    "translation": "farm"
+  },
+  {
+    "id": 142,
+    "source": "μαζί",
+    "translation": "together"
+  },
+  {
+    "id": 143,
+    "source": "αδελφός",
+    "translation": "brother"
+  },
+  {
+    "id": 144,
+    "source": "κάθε",
+    "translation": "each"
+  },
+  {
+    "id": 145,
+    "source": "μακριά",
+    "translation": "away"
+  },
+  {
+    "id": 146,
+    "source": "αεροδρόμιο",
+    "translation": "airport"
+  },
+  {
+    "id": 147,
+    "source": "σπόρος",
+    "translation": "seed"
+  },
+  {
+    "id": 148,
+    "source": "θρησκευτικά",
+    "translation": "religious"
+  },
+  {
+    "id": 149,
+    "source": "μαλακός",
+    "translation": "malleable"
+  },
+  {
+    "id": 150,
+    "source": "αθροίζω",
+    "translation": "sum"
+  },
+  {
+    "id": 151,
+    "source": "μαλλιά",
+    "translation": "hair"
+  },
+  {
+    "id": 152,
+    "source": "ακολουθήστε",
+    "translation": "follow"
+  },
+  {
+    "id": 153,
+    "source": "μαχαίρι",
+    "translation": "knife"
+  },
+  {
+    "id": 154,
+    "source": "άμμος",
+    "translation": "sand"
+  },
+  {
+    "id": 155,
+    "source": "Εβραϊκά",
+    "translation": "Hebrew"
+  },
+  {
+    "id": 156,
+    "source": "αλάτι",
+    "translation": "salt"
+  },
+  {
+    "id": 157,
+    "source": "χοιρινό",
+    "translation": "pork"
+  },
+  {
+    "id": 158,
+    "source": "ποτό",
+    "translation": "drink"
+  },
+  {
+    "id": 159,
+    "source": "μεγάλο",
+    "translation": "large"
+  },
+  {
+    "id": 160,
+    "source": "αναβλύζω",
+    "translation": "gush"
+  },
+  {
+    "id": 161,
+    "source": "πλούσιος",
+    "translation": "rich"
+  },
+  {
+    "id": 162,
+    "source": "μεσημεριανό",
+    "translation": "lunch"
+  },
+  {
+    "id": 163,
+    "source": "ανεμιστήρας",
+    "translation": "fan"
+  },
+  {
+    "id": 164,
+    "source": "χυμός",
+    "translation": "juice"
+  },
+  {
+    "id": 165,
+    "source": "μετά",
+    "translation": "after"
+  },
+  {
+    "id": 166,
+    "source": "ανοιχτό",
+    "translation": "open"
+  },
+  {
+    "id": 167,
+    "source": "φωτός",
+    "translation": "light"
+  },
+  {
+    "id": 168,
+    "source": "υγρός",
+    "translation": "liquid"
+  },
+  {
+    "id": 169,
+    "source": "μεταφορά",
+    "translation": "transport"
+  },
+  {
+    "id": 170,
+    "source": "απόγευμα",
+    "translation": "afternoon"
+  },
+  {
+    "id": 171,
+    "source": "μετρητής",
+    "translation": "meter"
+  },
+  {
+    "id": 172,
+    "source": "αργός",
+    "translation": "slow"
+  },
+  {
+    "id": 173,
+    "source": "σφίγγω",
+    "translation": "tighten"
+  },
+  {
+    "id": 174,
+    "source": "εγκέφαλος",
+    "translation": "brain"
+  },
+  {
+    "id": 175,
+    "source": "μικρά",
+    "translation": "young"
+  },
+  {
+    "id": 176,
+    "source": "αρσενικός",
+    "translation": "male"
+  },
+  {
+    "id": 177,
+    "source": "φύλο",
+    "translation": "sex"
+  },
+  {
+    "id": 178,
+    "source": "παίζω",
+    "translation": "I am playing"
+  },
+  {
+    "id": 179,
+    "source": "μιλήσετε",
+    "translation": "talk"
+  },
+  {
+    "id": 180,
+    "source": "αστυνομία",
+    "translation": "police"
+  },
+  {
+    "id": 181,
+    "source": "πληρώνουν *",
+    "translation": "pay *"
+  },
+  {
+    "id": 182,
+    "source": "ευτυχισμένος",
+    "translation": "happy"
+  },
+  {
+    "id": 183,
+    "source": "μισός",
+    "translation": "hatred"
+  },
+  {
+    "id": 184,
+    "source": "αυτές",
+    "translation": "they"
+  },
+  {
+    "id": 185,
+    "source": "μολύβι",
+    "translation": "pencil"
+  },
+  {
+    "id": 186,
+    "source": "αυτοκίνητο",
+    "translation": "car"
+  },
+  {
+    "id": 187,
+    "source": "μουσική",
+    "translation": "music"
+  },
+  {
+    "id": 188,
+    "source": "αυτό",
+    "translation": "this"
+  },
+  {
+    "id": 189,
+    "source": "ψυχή",
+    "translation": "soul"
+  },
+  {
+    "id": 190,
+    "source": "σκοτάδι",
+    "translation": "darkness"
+  },
+  {
+    "id": 191,
+    "source": "μπάντα",
+    "translation": "band"
+  },
+  {
+    "id": 192,
+    "source": "βάρκα",
+    "translation": "boat"
+  },
+  {
+    "id": 193,
+    "source": "γόνατο",
+    "translation": "knee"
+  },
+  {
+    "id": 194,
+    "source": "μπαρ",
+    "translation": "bar"
+  },
+  {
+    "id": 195,
+    "source": "βασίλισσα",
+    "translation": "queen"
+  },
+  {
+    "id": 196,
+    "source": "Εποχές",
+    "translation": "Seasons"
+  },
+  {
+    "id": 197,
+    "source": "αέρας",
+    "translation": "air"
+  },
+  {
+    "id": 198,
+    "source": "βελόνα",
+    "translation": "needle"
+  },
+  {
+    "id": 199,
+    "source": "έγκαυμα",
+    "translation": "burn"
+  },
+  {
+    "id": 200,
+    "source": "βιβλιοθήκη",
+    "translation": "library"
+  },
+  {
+    "id": 201,
+    "source": "αυλή",
+    "translation": "courtyard"
+  },
+  {
+    "id": 202,
+    "source": "ακούσουν",
+    "translation": "hear"
+  },
+  {
+    "id": 203,
+    "source": "δεύτερος",
+    "translation": "second"
+  },
+  {
+    "id": 204,
+    "source": "μπύρα",
+    "translation": "beer"
+  },
+  {
+    "id": 205,
+    "source": "βλέπω",
+    "translation": "I see"
+  },
+  {
+    "id": 206,
+    "source": "πρωί",
+    "translation": "morning"
+  },
+  {
+    "id": 207,
+    "source": "μυρμήγκι",
+    "translation": "ant"
+  },
+  {
+    "id": 208,
+    "source": "βουνό",
+    "translation": "Mountain"
+  },
+  {
+    "id": 209,
+    "source": "βαρύς",
+    "translation": "heavy"
+  },
+  {
+    "id": 210,
+    "source": "μωρό",
+    "translation": "baby"
+  },
+  {
+    "id": 211,
+    "source": "βρώμικος",
+    "translation": "bromic"
+  },
+  {
+    "id": 212,
+    "source": "μόλις",
+    "translation": "just"
+  },
+  {
+    "id": 213,
+    "source": "γάμου",
+    "translation": "marriage"
+  },
+  {
+    "id": 214,
+    "source": "μόνο",
+    "translation": "only"
+  },
+  {
+    "id": 215,
+    "source": "γέλιο",
+    "translation": "laugh"
+  },
+  {
+    "id": 216,
+    "source": "συγκάτοικος",
+    "translation": "roommate"
+  },
+  {
+    "id": 217,
+    "source": "μύγα",
+    "translation": "fly"
+  },
+  {
+    "id": 218,
+    "source": "γένος",
+    "translation": "genus"
+  },
+  {
+    "id": 219,
+    "source": "μύτη",
+    "translation": "nose"
+  },
+  {
+    "id": 220,
+    "source": "γείτονας",
+    "translation": "neighbor"
+  },
+  {
+    "id": 221,
+    "source": "νέος",
+    "translation": "young"
+  },
+  {
+    "id": 222,
+    "source": "γειτόνισσα",
+    "translation": "neighbor"
+  },
+  {
+    "id": 223,
+    "source": "νίκη",
+    "translation": "win"
+  },
+  {
+    "id": 224,
+    "source": "γεύση",
+    "translation": "taste"
+  },
+  {
+    "id": 225,
+    "source": "φοιτητής",
+    "translation": "college student"
+  },
+  {
+    "id": 226,
+    "source": "καρδιά",
+    "translation": "heart"
+  },
+  {
+    "id": 227,
+    "source": "νεκρός",
+    "translation": "dead"
+  },
+  {
+    "id": 228,
+    "source": "γιαγιά",
+    "translation": "grandmother"
+  },
+  {
+    "id": 229,
+    "source": "νερό",
+    "translation": "water"
+  },
+  {
+    "id": 230,
+    "source": "γκαράζ",
+    "translation": "garage"
+  },
+  {
+    "id": 231,
+    "source": "άσχημος",
+    "translation": "ugly"
+  },
+  {
+    "id": 232,
+    "source": "γκρι",
+    "translation": "gray"
+  },
+  {
+    "id": 233,
+    "source": "το",
+    "translation": "the"
+  },
+  {
+    "id": 234,
+    "source": "νοιώθω",
+    "translation": "I feel"
+  },
+  {
+    "id": 235,
+    "source": "γνωρίζω",
+    "translation": "I am aware"
+  },
+  {
+    "id": 236,
+    "source": "σύλληψη",
+    "translation": "arrest"
+  },
+  {
+    "id": 237,
+    "source": "Σώμα",
+    "translation": "Body"
+  },
+  {
+    "id": 238,
+    "source": "νομοσχέδιο",
+    "translation": "bill"
+  },
+  {
+    "id": 239,
+    "source": "γράφω",
+    "translation": "I am writing"
+  },
+  {
+    "id": 240,
+    "source": "συγχύζω",
+    "translation": "muddle"
+  },
+  {
+    "id": 241,
+    "source": "οροφή",
+    "translation": "roof"
+  },
+  {
+    "id": 242,
+    "source": "νόσος",
+    "translation": "disease"
+  },
+  {
+    "id": 243,
+    "source": "γραμματική",
+    "translation": "grammar"
+  },
+  {
+    "id": 244,
+    "source": "νότια",
+    "translation": "southerly"
+  },
+  {
+    "id": 245,
+    "source": "γυναίκα",
+    "translation": "woman"
+  },
+  {
+    "id": 246,
+    "source": "νύχτα",
+    "translation": "night"
+  },
+  {
+    "id": 247,
+    "source": "βεγγαλικό",
+    "translation": "fireworks"
+  },
+  {
+    "id": 248,
+    "source": "ξέρω",
+    "translation": "I know"
+  },
+  {
+    "id": 249,
+    "source": "δάχτυλο",
+    "translation": "finger"
+  },
+  {
+    "id": 250,
+    "source": "πίσω",
+    "translation": "back"
+  },
+  {
+    "id": 251,
+    "source": "εκτός",
+    "translation": "except"
+  },
+  {
+    "id": 252,
+    "source": "ξαπλώνω",
+    "translation": "lie down"
+  },
+  {
+    "id": 253,
+    "source": "δέρμα",
+    "translation": "skin"
+  },
+  {
+    "id": 254,
+    "source": "κόκκινο",
+    "translation": "Red"
+  },
+  {
+    "id": 255,
+    "source": "ξενοδοχείο",
+    "translation": "hotel"
+  },
+  {
+    "id": 256,
+    "source": "δακτύλιος",
+    "translation": "ring"
+  },
+  {
+    "id": 257,
+    "source": "ξυπνήστε",
+    "translation": "wake up"
+  },
+  {
+    "id": 258,
+    "source": "δεν",
+    "translation": "not"
+  },
+  {
+    "id": 259,
+    "source": "πορτοκάλι",
+    "translation": "Orange"
+  },
+  {
+    "id": 260,
+    "source": "οίκος",
+    "translation": "house"
+  },
+  {
+    "id": 261,
+    "source": "βολή",
+    "translation": "shot"
+  },
+  {
+    "id": 262,
+    "source": "σκληρά",
+    "translation": "hard"
+  },
+  {
+    "id": 263,
+    "source": "πιρούνι",
+    "translation": "fork"
+  },
+  {
+    "id": 264,
+    "source": "οθόνη",
+    "translation": "screen"
+  },
+  {
+    "id": 265,
+    "source": "διάλειμμα",
+    "translation": "break time"
+  },
+  {
+    "id": 266,
+    "source": "οικογένεια",
+    "translation": "family"
+  },
+  {
+    "id": 267,
+    "source": "διαμάντι",
+    "translation": "diamond"
+  },
+  {
+    "id": 268,
+    "source": "ομάδα",
+    "translation": "club"
+  },
+  {
+    "id": 269,
+    "source": "διδάσκω",
+    "translation": "I teach"
+  },
+  {
+    "id": 270,
+    "source": "γριά",
+    "translation": "old woman"
+  },
+  {
+    "id": 271,
+    "source": "δικαστήριο",
+    "translation": "court"
+  },
+  {
+    "id": 272,
+    "source": "εβδομάδα",
+    "translation": "week"
+  },
+  {
+    "id": 273,
+    "source": "οστό",
+    "translation": "bone"
+  },
+  {
+    "id": 274,
+    "source": "Τετάρτη",
+    "translation": "Wednesday"
+  },
+  {
+    "id": 275,
+    "source": "Τέχνη",
+    "translation": "Art"
+  },
+  {
+    "id": 276,
+    "source": "δουλειά",
+    "translation": "work"
+  },
+  {
+    "id": 277,
+    "source": "παιδί",
+    "translation": "child"
+  },
+  {
+    "id": 278,
+    "source": "πάλη",
+    "translation": "fight"
+  },
+  {
+    "id": 279,
+    "source": "δρόμου",
+    "translation": "road"
+  },
+  {
+    "id": 280,
+    "source": "πάλι",
+    "translation": "again"
+  },
+  {
+    "id": 281,
+    "source": "δωμάτιο",
+    "translation": "room"
+  },
+  {
+    "id": 282,
+    "source": "χορεύουν",
+    "translation": "They dance"
+  },
+  {
+    "id": 283,
+    "source": "πάνω",
+    "translation": "above"
+  },
+  {
+    "id": 284,
+    "source": "δόντι",
+    "translation": "tooth"
+  },
+  {
+    "id": 285,
+    "source": "πάρκο",
+    "translation": "park"
+  },
+  {
+    "id": 286,
+    "source": "δώρο",
+    "translation": "gift"
+  },
+  {
+    "id": 287,
+    "source": "πάτωμα",
+    "translation": "floor"
+  },
+  {
+    "id": 288,
+    "source": "είπα",
+    "translation": "I said"
+  },
+  {
+    "id": 289,
+    "source": "πάχους",
+    "translation": "thickness"
+  },
+  {
+    "id": 290,
+    "source": "είδος",
+    "translation": "kind"
+  },
+  {
+    "id": 291,
+    "source": "πάω",
+    "translation": "go"
+  },
+  {
+    "id": 292,
+    "source": "δολοφονία",
+    "translation": "murder"
+  },
+  {
+    "id": 293,
+    "source": "Εξαίρεση",
+    "translation": "Exception"
+  },
+  {
+    "id": 294,
+    "source": "διαβάζω",
+    "translation": "I'm studying"
+  },
+  {
+    "id": 295,
+    "source": "δίκτυο",
+    "translation": "network"
+  },
+  {
+    "id": 296,
+    "source": "Αιγαίας",
+    "translation": "Of the Aegean"
+  },
+  {
+    "id": 297,
+    "source": "τείνω",
+    "translation": "tend"
+  },
+  {
+    "id": 298,
+    "source": "παίχτης",
+    "translation": "player"
+  },
+  {
+    "id": 299,
+    "source": "εθνικότητα",
+    "translation": "nationality"
+  },
+  {
+    "id": 300,
+    "source": "παγκάκι",
+    "translation": "bench"
+  },
+  {
+    "id": 301,
+    "source": "ειρήνη",
+    "translation": "Irene"
+  },
+  {
+    "id": 302,
+    "source": "όνειρο",
+    "translation": "dream"
+  },
+  {
+    "id": 303,
+    "source": "πάγκος",
+    "translation": "bench"
+  },
+  {
+    "id": 304,
+    "source": "εισιτήριο",
+    "translation": "ticket"
+  },
+  {
+    "id": 305,
+    "source": "ώθηση",
+    "translation": "push"
+  },
+  {
+    "id": 306,
+    "source": "Ιούνιος",
+    "translation": "June"
+  },
+  {
+    "id": 307,
+    "source": "παιχνίδι",
+    "translation": "game"
+  },
+  {
+    "id": 308,
+    "source": "εκεί",
+    "translation": "there"
+  },
+  {
+    "id": 309,
+    "source": "κρέμονται",
+    "translation": "hanging"
+  },
+  {
+    "id": 310,
+    "source": "παλτό",
+    "translation": "coat"
+  },
+  {
+    "id": 311,
+    "source": "εκστρατεία",
+    "translation": "campaign"
+  },
+  {
+    "id": 312,
+    "source": "περπατώ",
+    "translation": "walk"
+  },
+  {
+    "id": 313,
+    "source": "πανεπιστήμιο",
+    "translation": "university"
+  },
+  {
+    "id": 314,
+    "source": "Ρήματα",
+    "translation": "Verbs"
+  },
+  {
+    "id": 315,
+    "source": "τοίχος",
+    "translation": "wall"
+  },
+  {
+    "id": 316,
+    "source": "δημοσιογράφος",
+    "translation": "journalist"
+  },
+  {
+    "id": 317,
+    "source": "παντρευτεί",
+    "translation": "get married"
+  },
+  {
+    "id": 318,
+    "source": "ενέργεια",
+    "translation": "energy"
+  },
+  {
+    "id": 319,
+    "source": "παπάς",
+    "translation": "priest"
+  },
+  {
+    "id": 320,
+    "source": "επάνω",
+    "translation": "up"
+  },
+  {
+    "id": 321,
+    "source": "αδειάζω",
+    "translation": "empty"
+  },
+  {
+    "id": 322,
+    "source": "επίθετο",
+    "translation": "Adjective"
+  },
+  {
+    "id": 323,
+    "source": "παππούς",
+    "translation": "grandfather"
+  },
+  {
+    "id": 324,
+    "source": "επιστήμη",
+    "translation": "science"
+  },
+  {
+    "id": 325,
+    "source": "γέννα",
+    "translation": "birth"
+  },
+  {
+    "id": 326,
+    "source": "παράδεισος",
+    "translation": "paradise"
+  },
+  {
+    "id": 327,
+    "source": "εποχή",
+    "translation": "time"
+  },
+  {
+    "id": 328,
+    "source": "παράθυρο",
+    "translation": "window"
+  },
+  {
+    "id": 329,
+    "source": "ερωτησεις",
+    "translation": "questions"
+  },
+  {
+    "id": 330,
+    "source": "Ολλανδός",
+    "translation": "Dutch"
+  },
+  {
+    "id": 331,
+    "source": "παρά",
+    "translation": "despite"
+  },
+  {
+    "id": 332,
+    "source": "εστιατόριο",
+    "translation": "restaurant"
+  },
+  {
+    "id": 333,
+    "source": "Μήδεια",
+    "translation": "Medea"
+  },
+  {
+    "id": 334,
+    "source": "παραδειγματάκια",
+    "translation": "examples"
+  },
+  {
+    "id": 335,
+    "source": "ευγενικός",
+    "translation": "polite"
+  },
+  {
+    "id": 336,
+    "source": "κάθονται",
+    "translation": "they are sitting"
+  },
+  {
+    "id": 337,
+    "source": "παραλία",
+    "translation": "beach"
+  },
+  {
+    "id": 338,
+    "source": "ευρύς",
+    "translation": "wide"
+  },
+  {
+    "id": 339,
+    "source": "πατέρας",
+    "translation": "father"
+  },
+  {
+    "id": 340,
+    "source": "ευχή",
+    "translation": "wish"
+  },
+  {
+    "id": 341,
+    "source": "αγγελία",
+    "translation": "ad"
+  },
+  {
+    "id": 342,
+    "source": "κινέζικα",
+    "translation": "Chinese"
+  },
+  {
+    "id": 343,
+    "source": "περάσει",
+    "translation": "pass"
+  },
+  {
+    "id": 344,
+    "source": "εφημερίδα",
+    "translation": "newspaper"
+  },
+  {
+    "id": 345,
+    "source": "καλά",
+    "translation": "good"
+  },
+  {
+    "id": 346,
+    "source": "περιβάλλον",
+    "translation": "environment"
+  },
+  {
+    "id": 347,
+    "source": "ζωγραφίζω",
+    "translation": "paint"
+  },
+  {
+    "id": 348,
+    "source": "ρολόι",
+    "translation": "clock"
+  },
+  {
+    "id": 349,
+    "source": "περιοδικό",
+    "translation": "magazine"
+  },
+  {
+    "id": 350,
+    "source": "ηθοποιός",
+    "translation": "actor"
+  },
+  {
+    "id": 351,
+    "source": "περισσεύω",
+    "translation": "I'm over"
+  },
+  {
+    "id": 352,
+    "source": "ημερομηνία",
+    "translation": "date"
+  },
+  {
+    "id": 353,
+    "source": "γωνία",
+    "translation": "corner"
+  },
+  {
+    "id": 354,
+    "source": "εμπρός",
+    "translation": "front"
+  },
+  {
+    "id": 355,
+    "source": "θάνατος",
+    "translation": "death"
+  },
+  {
+    "id": 356,
+    "source": "ξανά",
+    "translation": "again"
+  },
+  {
+    "id": 357,
+    "source": "γάτα",
+    "translation": "cat"
+  },
+  {
+    "id": 358,
+    "source": "πεύκα",
+    "translation": "pine trees"
+  },
+  {
+    "id": 359,
+    "source": "θαυμάζω",
+    "translation": "I admire"
+  },
+  {
+    "id": 360,
+    "source": "σύμβαση",
+    "translation": "contract"
+  },
+  {
+    "id": 361,
+    "source": "πηλός",
+    "translation": "clay"
+  },
+  {
+    "id": 362,
+    "source": "θρησκεία",
+    "translation": "religion"
+  },
+  {
+    "id": 363,
+    "source": "πιγκουίνος",
+    "translation": "Penguin"
+  },
+  {
+    "id": 364,
+    "source": "Τροφή",
+    "translation": "Food"
+  },
+  {
+    "id": 365,
+    "source": "διακοπή",
+    "translation": "vacation"
+  },
+  {
+    "id": 366,
+    "source": "ισχυρός",
+    "translation": "strong"
+  },
+  {
+    "id": 367,
+    "source": "πισίνα",
+    "translation": "pool"
+  },
+  {
+    "id": 368,
+    "source": "κάγκελα",
+    "translation": "railings"
+  },
+  {
+    "id": 369,
+    "source": "πλάκα",
+    "translation": "plate"
+  },
+  {
+    "id": 370,
+    "source": "αυτοί",
+    "translation": "these"
+  },
+  {
+    "id": 371,
+    "source": "πλήθος",
+    "translation": "host"
+  },
+  {
+    "id": 372,
+    "source": "κάνω",
+    "translation": "I am doing"
+  },
+  {
+    "id": 373,
+    "source": "πλήκτρο",
+    "translation": "key"
+  },
+  {
+    "id": 374,
+    "source": "κάτι",
+    "translation": "something"
+  },
+  {
+    "id": 375,
+    "source": "καίω",
+    "translation": "burn"
+  },
+  {
+    "id": 376,
+    "source": "πλατεία",
+    "translation": "square"
+  },
+  {
+    "id": 377,
+    "source": "κάτω μέρος",
+    "translation": "bottom"
+  },
+  {
+    "id": 378,
+    "source": "πλευρά",
+    "translation": "side"
+  },
+  {
+    "id": 379,
+    "source": "κήρυκας",
+    "translation": "preacher"
+  },
+  {
+    "id": 380,
+    "source": "πού",
+    "translation": "where"
+  },
+  {
+    "id": 381,
+    "source": "αυτί",
+    "translation": "ear"
+  },
+  {
+    "id": 382,
+    "source": "κήπος",
+    "translation": "garden"
+  },
+  {
+    "id": 383,
+    "source": "Δουλειά",
+    "translation": "Work"
+  },
+  {
+    "id": 384,
+    "source": "βιβλίο",
+    "translation": "book"
+  },
+  {
+    "id": 385,
+    "source": "ανοιχτός",
+    "translation": "open"
+  },
+  {
+    "id": 386,
+    "source": "ζώο",
+    "translation": "animal"
+  },
+  {
+    "id": 387,
+    "source": "ευλογία",
+    "translation": "blessing"
+  },
+  {
+    "id": 388,
+    "source": "ποδήλατο",
+    "translation": "bike"
+  },
+  {
+    "id": 389,
+    "source": "καλημέρα",
+    "translation": "good morning"
+  },
+  {
+    "id": 390,
+    "source": "ποια",
+    "translation": "which"
+  },
+  {
+    "id": 391,
+    "source": "καλλιτέχνης",
+    "translation": "artist"
+  },
+  {
+    "id": 392,
+    "source": "μυρωδιά",
+    "translation": "smell"
+  },
+  {
+    "id": 393,
+    "source": "ποιος",
+    "translation": "who"
+  },
+  {
+    "id": 394,
+    "source": "καρέκλα",
+    "translation": "chair"
+  },
+  {
+    "id": 395,
+    "source": "κεφάλι",
+    "translation": "head"
+  },
+  {
+    "id": 396,
+    "source": "πολιτεία",
+    "translation": "state"
+  },
+  {
+    "id": 397,
+    "source": "κατασκήνωση",
+    "translation": "camp"
+  },
+  {
+    "id": 398,
+    "source": "ένα",
+    "translation": "one"
+  },
+  {
+    "id": 399,
+    "source": "καυτό",
+    "translation": "hot"
+  },
+  {
+    "id": 400,
+    "source": "στρογγυλό",
+    "translation": "round"
+  },
+  {
+    "id": 401,
+    "source": "πολύ",
+    "translation": "very"
+  },
+  {
+    "id": 402,
+    "source": "καφέ",
+    "translation": "coffee"
+  },
+  {
+    "id": 403,
+    "source": "όχι",
+    "translation": "no"
+  },
+  {
+    "id": 404,
+    "source": "εννιά",
+    "translation": "nine"
+  },
+  {
+    "id": 405,
+    "source": "κελαρύζω",
+    "translation": "purl"
+  },
+  {
+    "id": 406,
+    "source": "φυλακή",
+    "translation": "prison"
+  },
+  {
+    "id": 407,
+    "source": "κούνημα",
+    "translation": "shake"
+  },
+  {
+    "id": 408,
+    "source": "ποτήρι",
+    "translation": "glass"
+  },
+  {
+    "id": 409,
+    "source": "κιλό",
+    "translation": "kg"
+  },
+  {
+    "id": 410,
+    "source": "ανατολή",
+    "translation": "East"
+  },
+  {
+    "id": 411,
+    "source": "κλήρωση",
+    "translation": "draw"
+  },
+  {
+    "id": 412,
+    "source": "προς",
+    "translation": "to"
+  },
+  {
+    "id": 413,
+    "source": "Απρίλιος",
+    "translation": "April"
+  },
+  {
+    "id": 414,
+    "source": "Ιαπωνικά",
+    "translation": "Japanese"
+  },
+  {
+    "id": 415,
+    "source": "πουλί",
+    "translation": "bird"
+  },
+  {
+    "id": 416,
+    "source": "κλαίω",
+    "translation": "I'm crying"
+  },
+  {
+    "id": 417,
+    "source": "κορυφή",
+    "translation": "peak"
+  },
+  {
+    "id": 418,
+    "source": "πράξη",
+    "translation": "act"
+  },
+  {
+    "id": 419,
+    "source": "Γη",
+    "translation": "Earth"
+  },
+  {
+    "id": 420,
+    "source": "μεγαλώνουν",
+    "translation": "grow up"
+  },
+  {
+    "id": 421,
+    "source": "ελάχιστα",
+    "translation": "minimum"
+  },
+  {
+    "id": 422,
+    "source": "πρέπει",
+    "translation": "must"
+  },
+  {
+    "id": 423,
+    "source": "κοντά",
+    "translation": "close"
+  },
+  {
+    "id": 424,
+    "source": "ταινία",
+    "translation": "film"
+  },
+  {
+    "id": 425,
+    "source": "πρίγκιπας",
+    "translation": "prince"
+  },
+  {
+    "id": 426,
+    "source": "Ημέρες",
+    "translation": "Days"
+  },
+  {
+    "id": 427,
+    "source": "πριν",
+    "translation": "before"
+  },
+  {
+    "id": 428,
+    "source": "εκραγεί",
+    "translation": "explodes"
+  },
+  {
+    "id": 429,
+    "source": "Αριθμοί",
+    "translation": "Numbers"
+  },
+  {
+    "id": 430,
+    "source": "Καλοκαίρι",
+    "translation": "Summer"
+  },
+  {
+    "id": 431,
+    "source": "προσευχή",
+    "translation": "prayer"
+  },
+  {
+    "id": 432,
+    "source": "Διάφορα",
+    "translation": "Difference"
+  },
+  {
+    "id": 433,
+    "source": "προσεύχομαι",
+    "translation": "I pray"
+  },
+  {
+    "id": 434,
+    "source": "καλλιεργώ",
+    "translation": "cultivate"
+  },
+  {
+    "id": 435,
+    "source": "βροχή",
+    "translation": "rain"
+  },
+  {
+    "id": 436,
+    "source": "Μαθηματικά",
+    "translation": "Mathematics"
+  },
+  {
+    "id": 437,
+    "source": "πρωινό",
+    "translation": "breakfast"
+  },
+  {
+    "id": 438,
+    "source": "Νοέμβριος",
+    "translation": "November"
+  },
+  {
+    "id": 439,
+    "source": "πρόγραμμα",
+    "translation": "program"
+  },
+  {
+    "id": 440,
+    "source": "Ουσιαστικά",
+    "translation": "Essentially"
+  },
+  {
+    "id": 441,
+    "source": "πρόεδρος",
+    "translation": "chairman"
+  },
+  {
+    "id": 442,
+    "source": "Πελοπόννησος",
+    "translation": "Peloponnese"
+  },
+  {
+    "id": 443,
+    "source": "φεγγάρι",
+    "translation": "moon"
+  },
+  {
+    "id": 444,
+    "source": "γιατί ",
+    "translation": "why"
+  },
+  {
+    "id": 445,
+    "source": "πρότυπο",
+    "translation": "role model"
+  },
+  {
+    "id": 446,
+    "source": "Πτώση",
+    "translation": "Fall"
+  },
+  {
+    "id": 447,
+    "source": "πτώση",
+    "translation": "fall"
+  },
+  {
+    "id": 448,
+    "source": "κύκλος",
+    "translation": "cycle"
+  },
+  {
+    "id": 449,
+    "source": "σκάβω",
+    "translation": "dig"
+  },
+  {
+    "id": 450,
+    "source": "πωλήσει",
+    "translation": "sell"
+  },
+  {
+    "id": 451,
+    "source": "Τρίτη",
+    "translation": "Third"
+  },
+  {
+    "id": 452,
+    "source": "θέατρο",
+    "translation": "theater"
+  },
+  {
+    "id": 453,
+    "source": "πως",
+    "translation": "how"
+  },
+  {
+    "id": 454,
+    "source": "Χειμώνας",
+    "translation": "Winter"
+  },
+  {
+    "id": 455,
+    "source": "χαρτί",
+    "translation": "paper"
+  },
+  {
+    "id": 456,
+    "source": "Μεταφορά",
+    "translation": "Transport"
+  },
+  {
+    "id": 457,
+    "source": "πόλη",
+    "translation": "city"
+  },
+  {
+    "id": 458,
+    "source": "λίγο",
+    "translation": "a little bit"
+  },
+  {
+    "id": 459,
+    "source": "δάσος",
+    "translation": "Forest"
+  },
+  {
+    "id": 460,
+    "source": "πώς",
+    "translation": "how"
+  },
+  {
+    "id": 461,
+    "source": "άποικος",
+    "translation": "settler"
+  },
+  {
+    "id": 462,
+    "source": "ρήμα",
+    "translation": "verb"
+  },
+  {
+    "id": 463,
+    "source": "έλξη",
+    "translation": "traction"
+  },
+  {
+    "id": 464,
+    "source": "ρίζα",
+    "translation": "root"
+  },
+  {
+    "id": 465,
+    "source": "λευτεριά",
+    "translation": "freedom"
+  },
+  {
+    "id": 466,
+    "source": "λαιμός",
+    "translation": "neck"
+  },
+  {
+    "id": 467,
+    "source": "ασήμι",
+    "translation": "silver"
+  },
+  {
+    "id": 468,
+    "source": "ροζ",
+    "translation": "pink"
+  },
+  {
+    "id": 469,
+    "source": "έχω",
+    "translation": "I have"
+  },
+  {
+    "id": 470,
+    "source": "ημέρα",
+    "translation": "day"
+  },
+  {
+    "id": 471,
+    "source": "αβαθής",
+    "translation": "shallow"
+  },
+  {
+    "id": 472,
+    "source": "ρύζι",
+    "translation": "rice"
+  },
+  {
+    "id": 473,
+    "source": "αγγίζετε",
+    "translation": "you touch"
+  },
+  {
+    "id": 474,
+    "source": "σήμα",
+    "translation": "signal"
+  },
+  {
+    "id": 475,
+    "source": "αγελάδα",
+    "translation": "cow"
+  },
+  {
+    "id": 476,
+    "source": "σήμερα",
+    "translation": "today"
+  },
+  {
+    "id": 477,
+    "source": "αγκινάρα",
+    "translation": "artichoke"
+  },
+  {
+    "id": 478,
+    "source": "γάλα",
+    "translation": "milk"
+  },
+  {
+    "id": 479,
+    "source": "σαλιγκάρι",
+    "translation": "snail"
+  },
+  {
+    "id": 480,
+    "source": "αγορά",
+    "translation": "Buy"
+  },
+  {
+    "id": 481,
+    "source": "σαν",
+    "translation": "like"
+  },
+  {
+    "id": 482,
+    "source": "αδύναμος",
+    "translation": "weak"
+  },
+  {
+    "id": 483,
+    "source": "σαπούνι",
+    "translation": "soap"
+  },
+  {
+    "id": 484,
+    "source": "αισθάνομαι",
+    "translation": "feel"
+  },
+  {
+    "id": 485,
+    "source": "σειρά",
+    "translation": "series"
+  },
+  {
+    "id": 486,
+    "source": "βοδινό κρέας",
+    "translation": "beef"
+  },
+  {
+    "id": 487,
+    "source": "πρόσωπο",
+    "translation": "face"
+  },
+  {
+    "id": 488,
+    "source": "σελίδα",
+    "translation": "page"
+  },
+  {
+    "id": 489,
+    "source": "αλλάζω",
+    "translation": "change"
+  },
+  {
+    "id": 490,
+    "source": "ιδρώτας",
+    "translation": "sweat"
+  },
+  {
+    "id": 491,
+    "source": "σερβιτόρος",
+    "translation": "waiter"
+  },
+  {
+    "id": 492,
+    "source": "ανθρώπινος",
+    "translation": "human"
+  },
+  {
+    "id": 493,
+    "source": "σημείο",
+    "translation": "point"
+  },
+  {
+    "id": 494,
+    "source": "από",
+    "translation": "from"
+  },
+  {
+    "id": 495,
+    "source": "σημείωση",
+    "translation": "note"
+  },
+  {
+    "id": 496,
+    "source": "αριστερά",
+    "translation": "left"
+  },
+  {
+    "id": 497,
+    "source": "σιδηροδρομικός",
+    "translation": "railway"
+  },
+  {
+    "id": 498,
+    "source": "μητέρα",
+    "translation": "mother"
+  },
+  {
+    "id": 499,
+    "source": "σχολείο",
+    "translation": "school"
+  },
+  {
+    "id": 500,
+    "source": "λάστιχο",
+    "translation": "rubber"
+  },
+  {
+    "id": 501,
+    "source": "μικρός",
+    "translation": "small"
+  },
+  {
+    "id": 502,
+    "source": "εδώ",
+    "translation": "here"
+  },
+  {
+    "id": 503,
+    "source": "ήχος",
+    "translation": "sound"
+  },
+  {
+    "id": 504,
+    "source": "άλλος",
+    "translation": "other"
+  },
+  {
+    "id": 505,
+    "source": "βάρος",
+    "translation": "weight"
+  },
+  {
+    "id": 506,
+    "source": "σκοτώσει",
+    "translation": "kill"
+  },
+  {
+    "id": 507,
+    "source": "βασιλιάς",
+    "translation": "king"
+  },
+  {
+    "id": 508,
+    "source": "φθηνά",
+    "translation": "cheap"
+  },
+  {
+    "id": 509,
+    "source": "σκόνη",
+    "translation": "powder"
+  },
+  {
+    "id": 510,
+    "source": "βενζίνη",
+    "translation": "petrol"
+  },
+  {
+    "id": 511,
+    "source": "σκότους",
+    "translation": "darkness"
+  },
+  {
+    "id": 512,
+    "source": "μπουκάλι",
+    "translation": "bottle"
+  },
+  {
+    "id": 513,
+    "source": "αγκώνας",
+    "translation": "elbow"
+  },
+  {
+    "id": 514,
+    "source": "βρείτε",
+    "translation": "find"
+  },
+  {
+    "id": 515,
+    "source": "Μάιος",
+    "translation": "May"
+  },
+  {
+    "id": 516,
+    "source": "κατάστημα",
+    "translation": "store"
+  },
+  {
+    "id": 517,
+    "source": "σούπα",
+    "translation": "soup"
+  },
+  {
+    "id": 518,
+    "source": "εργασία",
+    "translation": "work"
+  },
+  {
+    "id": 519,
+    "source": "ανακατεύετε",
+    "translation": "stir"
+  },
+  {
+    "id": 520,
+    "source": "σπίτι",
+    "translation": "home"
+  },
+  {
+    "id": 521,
+    "source": "γεια",
+    "translation": "Hello"
+  },
+  {
+    "id": 522,
+    "source": "ωκεανών",
+    "translation": "oceans"
+  },
+  {
+    "id": 523,
+    "source": "σπουδαίος",
+    "translation": "great"
+  },
+  {
+    "id": 524,
+    "source": "γραμματέας",
+    "translation": "secretary"
+  },
+  {
+    "id": 525,
+    "source": "σώμα",
+    "translation": "body"
+  },
+  {
+    "id": 526,
+    "source": "Δεκέμβριος",
+    "translation": "December"
+  },
+  {
+    "id": 527,
+    "source": "Φεβρουάριος",
+    "translation": "February"
+  },
+  {
+    "id": 528,
+    "source": "στέγη",
+    "translation": "roof"
+  },
+  {
+    "id": 529,
+    "source": "γρήγορα",
+    "translation": "quickly"
+  },
+  {
+    "id": 530,
+    "source": "σταθμό",
+    "translation": "station"
+  },
+  {
+    "id": 531,
+    "source": "Ρωσικός",
+    "translation": "Russian"
+  },
+  {
+    "id": 532,
+    "source": "στεγνώσει",
+    "translation": "dry out"
+  },
+  {
+    "id": 533,
+    "source": "θέλω",
+    "translation": "I want"
+  },
+  {
+    "id": 534,
+    "source": "στενός",
+    "translation": "narrow"
+  },
+  {
+    "id": 535,
+    "source": "δέντρο",
+    "translation": "tree"
+  },
+  {
+    "id": 536,
+    "source": "στεφάνι",
+    "translation": "crown"
+  },
+  {
+    "id": 537,
+    "source": "θερμότητα",
+    "translation": "heat"
+  },
+  {
+    "id": 538,
+    "source": "τρέχει",
+    "translation": "is running"
+  },
+  {
+    "id": 539,
+    "source": "στρατιώτης",
+    "translation": "soldier"
+  },
+  {
+    "id": 540,
+    "source": "δεξιά",
+    "translation": "right"
+  },
+  {
+    "id": 541,
+    "source": "στρατός",
+    "translation": "army"
+  },
+  {
+    "id": 542,
+    "source": "διάστημα",
+    "translation": "space"
+  },
+  {
+    "id": 543,
+    "source": "κείμενο",
+    "translation": "text"
+  },
+  {
+    "id": 544,
+    "source": "διαμέρισμα",
+    "translation": "apartment"
+  },
+  {
+    "id": 545,
+    "source": "κίτρινος",
+    "translation": "yellow"
+  },
+  {
+    "id": 546,
+    "source": "Αττική",
+    "translation": "Attica"
+  },
+  {
+    "id": 547,
+    "source": "δικηγόρος",
+    "translation": "Lawyer"
+  },
+  {
+    "id": 548,
+    "source": "είδα",
+    "translation": "I saw"
+  },
+  {
+    "id": 549,
+    "source": "συγγένεια",
+    "translation": "affinity"
+  },
+  {
+    "id": 550,
+    "source": "δυνατά",
+    "translation": "loudly"
+  },
+  {
+    "id": 551,
+    "source": "συγγραφέας",
+    "translation": "author"
+  },
+  {
+    "id": 552,
+    "source": "είτε",
+    "translation": "either"
+  },
+  {
+    "id": 553,
+    "source": "γέφυρα",
+    "translation": "bridge"
+  },
+  {
+    "id": 554,
+    "source": "είχα",
+    "translation": "I used to have"
+  },
+  {
+    "id": 555,
+    "source": "συγκίνηση",
+    "translation": "emotion"
+  },
+  {
+    "id": 556,
+    "source": "εγγόνι",
+    "translation": "grandchild"
+  },
+  {
+    "id": 557,
+    "source": "συγκοινωνία",
+    "translation": "transport"
+  },
+  {
+    "id": 558,
+    "source": "πέτρα",
+    "translation": "stone"
+  },
+  {
+    "id": 559,
+    "source": "συγκρίνω",
+    "translation": "compare"
+  },
+  {
+    "id": 560,
+    "source": "αυτά",
+    "translation": "that's all"
+  },
+  {
+    "id": 561,
+    "source": "γραφείο",
+    "translation": "office"
+  },
+  {
+    "id": 562,
+    "source": "εκατομμύριο",
+    "translation": "million"
+  },
+  {
+    "id": 563,
+    "source": "πλύση",
+    "translation": "washing"
+  },
+  {
+    "id": 564,
+    "source": "ασθενής",
+    "translation": "patient"
+  },
+  {
+    "id": 565,
+    "source": "δυσαρέσκεια",
+    "translation": "dissatisfaction"
+  },
+  {
+    "id": 566,
+    "source": "σφιχτός",
+    "translation": "tight"
+  },
+  {
+    "id": 567,
+    "source": "εμείς",
+    "translation": "we"
+  },
+  {
+    "id": 568,
+    "source": "σφύζω",
+    "translation": "I bury"
+  },
+  {
+    "id": 569,
+    "source": "παντελόνι",
+    "translation": "trousers"
+  },
+  {
+    "id": 570,
+    "source": "σχίσιμο",
+    "translation": "tearing"
+  },
+  {
+    "id": 571,
+    "source": "επειδή",
+    "translation": "because"
+  },
+  {
+    "id": 572,
+    "source": "μιλώ",
+    "translation": "I speak"
+  },
+  {
+    "id": 573,
+    "source": "εργαλείο",
+    "translation": "tool"
+  },
+  {
+    "id": 574,
+    "source": "σύζυγός",
+    "translation": "husband"
+  },
+  {
+    "id": 575,
+    "source": "εσείς",
+    "translation": "you"
+  },
+  {
+    "id": 576,
+    "source": "γραμμή",
+    "translation": "line"
+  },
+  {
+    "id": 577,
+    "source": "ευθεία",
+    "translation": "straight"
+  },
+  {
+    "id": 578,
+    "source": "θύμα",
+    "translation": "victim"
+  },
+  {
+    "id": 579,
+    "source": "ευτυχία",
+    "translation": "happiness"
+  },
+  {
+    "id": 580,
+    "source": "σύμφωνο",
+    "translation": "pact"
+  },
+  {
+    "id": 581,
+    "source": "εύφορη",
+    "translation": "fertile"
+  },
+  {
+    "id": 582,
+    "source": "σύννεφο",
+    "translation": "cloud"
+  },
+  {
+    "id": 583,
+    "source": "ζωντανός",
+    "translation": "live"
+  },
+  {
+    "id": 584,
+    "source": "τυφλός",
+    "translation": "blind"
+  },
+  {
+    "id": 585,
+    "source": "νικήσει",
+    "translation": "win"
+  },
+  {
+    "id": 586,
+    "source": "Εγώ",
+    "translation": "I"
+  },
+  {
+    "id": 587,
+    "source": "τέσσερις",
+    "translation": "four"
+  },
+  {
+    "id": 588,
+    "source": "περισσότερο",
+    "translation": "more"
+  },
+  {
+    "id": 589,
+    "source": "τέχνη",
+    "translation": "art"
+  },
+  {
+    "id": 590,
+    "source": "πετρέλαιο",
+    "translation": "oil"
+  },
+  {
+    "id": 591,
+    "source": "Γαλλία",
+    "translation": "France"
+  },
+  {
+    "id": 592,
+    "source": "ανύψωση",
+    "translation": "lifting"
+  },
+  {
+    "id": 593,
+    "source": "ταυτόχρονα",
+    "translation": "at the same time"
+  },
+  {
+    "id": 594,
+    "source": "αθλητισμός",
+    "translation": "sport"
+  },
+  {
+    "id": 595,
+    "source": "ωραία",
+    "translation": "nice"
+  },
+  {
+    "id": 596,
+    "source": "τελεία",
+    "translation": "perfect"
+  },
+  {
+    "id": 597,
+    "source": "κάρτα",
+    "translation": "card"
+  },
+  {
+    "id": 598,
+    "source": "καύση",
+    "translation": "combustion"
+  },
+  {
+    "id": 599,
+    "source": "τεχνολογία",
+    "translation": "technology"
+  },
+  {
+    "id": 600,
+    "source": "πλαστική ύλη",
+    "translation": "plastic"
+  },
+  {
+    "id": 601,
+    "source": "Κοινωνία",
+    "translation": "Society"
+  },
+  {
+    "id": 602,
+    "source": "κακός",
+    "translation": "bad"
+  },
+  {
+    "id": 603,
+    "source": "τηλεόραση",
+    "translation": "TV"
+  },
+  {
+    "id": 604,
+    "source": "καλησπέρα",
+    "translation": "good evening"
+  },
+  {
+    "id": 605,
+    "source": "άλογο",
+    "translation": "horse"
+  },
+  {
+    "id": 606,
+    "source": "τι",
+    "translation": "what"
+  },
+  {
+    "id": 607,
+    "source": "καλός",
+    "translation": "good"
+  },
+  {
+    "id": 608,
+    "source": "ενδύματα",
+    "translation": "clothing"
+  },
+  {
+    "id": 609,
+    "source": "ποιο",
+    "translation": "wich one"
+  },
+  {
+    "id": 610,
+    "source": "τοποθεσία",
+    "translation": "location"
+  },
+  {
+    "id": 611,
+    "source": "καθαρίστε",
+    "translation": "clean up"
+  },
+  {
+    "id": 612,
+    "source": "τουαλέτα",
+    "translation": "toilet"
+  },
+  {
+    "id": 613,
+    "source": "ποντίκι",
+    "translation": "mouse"
+  },
+  {
+    "id": 614,
+    "source": "γράμμα",
+    "translation": "letter"
+  },
+  {
+    "id": 615,
+    "source": "ποτάμι",
+    "translation": "river"
+  },
+  {
+    "id": 616,
+    "source": "το στόμα",
+    "translation": "mouth"
+  },
+  {
+    "id": 617,
+    "source": "κοιλάδα",
+    "translation": "valley"
+  },
+  {
+    "id": 618,
+    "source": "τράπεζα",
+    "translation": "bank"
+  },
+  {
+    "id": 619,
+    "source": "κολυμπώ",
+    "translation": "swim"
+  },
+  {
+    "id": 620,
+    "source": "τρένο",
+    "translation": "train"
+  },
+  {
+    "id": 621,
+    "source": "κοντός",
+    "translation": "short"
+  },
+  {
+    "id": 622,
+    "source": "τρέξιμο",
+    "translation": "run"
+  },
+  {
+    "id": 623,
+    "source": "Θησαυρού",
+    "translation": "Thesaurus"
+  },
+  {
+    "id": 624,
+    "source": "ξύλο",
+    "translation": "wood"
+  },
+  {
+    "id": 625,
+    "source": "κινητό",
+    "translation": "mobile"
+  },
+  {
+    "id": 626,
+    "source": "καινούργιος",
+    "translation": "new"
+  },
+  {
+    "id": 627,
+    "source": "Πορτογάλος",
+    "translation": "Portuguese"
+  },
+  {
+    "id": 628,
+    "source": "λουλούδι",
+    "translation": "flower"
+  },
+  {
+    "id": 629,
+    "source": "τραγούδι",
+    "translation": "song"
+  },
+  {
+    "id": 630,
+    "source": "Πέμπτη",
+    "translation": "Thursday"
+  },
+  {
+    "id": 631,
+    "source": "άγγελος",
+    "translation": "angel"
+  },
+  {
+    "id": 632,
+    "source": "Δάσκαλος",
+    "translation": "Teacher"
+  },
+  {
+    "id": 633,
+    "source": "έρχομαι ",
+    "translation": "I am coming"
+  },
+  {
+    "id": 634,
+    "source": "τρύπα",
+    "translation": "hole"
+  },
+  {
+    "id": 635,
+    "source": "Φέγγω",
+    "translation": "Shine"
+  },
+  {
+    "id": 636,
+    "source": "τρώω",
+    "translation": "I eat"
+  },
+  {
+    "id": 637,
+    "source": "Χρώμα",
+    "translation": "Colour"
+  },
+  {
+    "id": 638,
+    "source": "τσάι",
+    "translation": "tea"
+  },
+  {
+    "id": 639,
+    "source": "πόδι",
+    "translation": "foot"
+  },
+  {
+    "id": 640,
+    "source": "γενειάδα",
+    "translation": "beard"
+  },
+  {
+    "id": 641,
+    "source": "τσάντα",
+    "translation": "bag"
+  },
+  {
+    "id": 642,
+    "source": "πόνος",
+    "translation": "pain"
+  },
+  {
+    "id": 643,
+    "source": "τσέπη",
+    "translation": "pocket"
+  },
+  {
+    "id": 644,
+    "source": "ήσυχα",
+    "translation": "quiet"
+  },
+  {
+    "id": 645,
+    "source": "τυρί",
+    "translation": "cheese"
+  },
+  {
+    "id": 646,
+    "source": "αίμα",
+    "translation": "blood"
+  },
+  {
+    "id": 647,
+    "source": "άκρο",
+    "translation": "end"
+  },
+  {
+    "id": 648,
+    "source": "αγκίστρι",
+    "translation": "fish hook"
+  },
+  {
+    "id": 649,
+    "source": "τώρα",
+    "translation": "now"
+  },
+  {
+    "id": 650,
+    "source": "αγόρι",
+    "translation": "boy"
+  },
+  {
+    "id": 651,
+    "source": "υγιής",
+    "translation": "healthy"
+  },
+  {
+    "id": 652,
+    "source": "μακρύς",
+    "translation": "long"
+  },
+  {
+    "id": 653,
+    "source": "αρίθμηση",
+    "translation": "numbering"
+  },
+  {
+    "id": 654,
+    "source": "γης",
+    "translation": "land"
+  },
+  {
+    "id": 655,
+    "source": "υλικό",
+    "translation": "material"
+  },
+  {
+    "id": 656,
+    "source": "Ενδύματα",
+    "translation": "Clothing"
+  },
+  {
+    "id": 657,
+    "source": "υπάλληλος",
+    "translation": "employee"
+  },
+  {
+    "id": 658,
+    "source": "ίππος",
+    "translation": "horse"
+  },
+  {
+    "id": 659,
+    "source": "υπάρχω",
+    "translation": "exist"
+  },
+  {
+    "id": 660,
+    "source": "αυτή",
+    "translation": "she"
+  },
+  {
+    "id": 661,
+    "source": "Επίθετα",
+    "translation": "Adjectives"
+  },
+  {
+    "id": 662,
+    "source": "αύριο",
+    "translation": "tomorrow"
+  },
+  {
+    "id": 663,
+    "source": "υπολογιστής",
+    "translation": "computer"
+  },
+  {
+    "id": 664,
+    "source": "μπανάνα",
+    "translation": "banana"
+  },
+  {
+    "id": 665,
+    "source": "όνομα",
+    "translation": "name"
+  },
+  {
+    "id": 666,
+    "source": "υπόδειγμα",
+    "translation": "model"
+  },
+  {
+    "id": 667,
+    "source": "μπράτσο",
+    "translation": "arm"
+  },
+  {
+    "id": 668,
+    "source": "υψηλός",
+    "translation": "high"
+  },
+  {
+    "id": 669,
+    "source": "γέρος",
+    "translation": "old man"
+  },
+  {
+    "id": 670,
+    "source": "φάρμακο",
+    "translation": "medicine"
+  },
+  {
+    "id": 671,
+    "source": "σπάγκος",
+    "translation": "twine"
+  },
+  {
+    "id": 672,
+    "source": "φάω",
+    "translation": "eat"
+  },
+  {
+    "id": 673,
+    "source": "γογγύζω",
+    "translation": "murmur"
+  },
+  {
+    "id": 674,
+    "source": "φέρουν",
+    "translation": "bear"
+  },
+  {
+    "id": 675,
+    "source": "νομίζω",
+    "translation": "I think so"
+  },
+  {
+    "id": 676,
+    "source": "ήλιος",
+    "translation": "sun"
+  },
+  {
+    "id": 677,
+    "source": "λεπτός",
+    "translation": "thin"
+  },
+  {
+    "id": 678,
+    "source": "κύμα",
+    "translation": "wave"
+  },
+  {
+    "id": 679,
+    "source": "δανείζω",
+    "translation": "lend"
+  },
+  {
+    "id": 680,
+    "source": "Σεπτέμβριος",
+    "translation": "September"
+  },
+  {
+    "id": 681,
+    "source": "οδηγώ",
+    "translation": "I'm driving"
+  },
+  {
+    "id": 682,
+    "source": "φεγγίτης",
+    "translation": "skylight"
+  },
+  {
+    "id": 683,
+    "source": "δολάριο",
+    "translation": "dollar"
+  },
+  {
+    "id": 684,
+    "source": "Σάββατο",
+    "translation": "Saturday"
+  },
+  {
+    "id": 685,
+    "source": "πάγος",
+    "translation": "ice"
+  },
+  {
+    "id": 686,
+    "source": "φθορά",
+    "translation": "wear"
+  },
+  {
+    "id": 687,
+    "source": "είκοσι",
+    "translation": "twenty"
+  },
+  {
+    "id": 688,
+    "source": "φιλί",
+    "translation": "kiss"
+  },
+  {
+    "id": 689,
+    "source": "ειδικός",
+    "translation": "specific"
+  },
+  {
+    "id": 690,
+    "source": "γιατρός",
+    "translation": "doctor"
+  },
+  {
+    "id": 691,
+    "source": "εκκλησία",
+    "translation": "church"
+  },
+  {
+    "id": 692,
+    "source": "φορτηγό",
+    "translation": "truck"
+  },
+  {
+    "id": 693,
+    "source": "συλλογή",
+    "translation": "collection"
+  },
+  {
+    "id": 694,
+    "source": "φούστα",
+    "translation": "skirt"
+  },
+  {
+    "id": 695,
+    "source": "επίθεση",
+    "translation": "attack"
+  },
+  {
+    "id": 696,
+    "source": "φτερό",
+    "translation": "feather"
+  },
+  {
+    "id": 697,
+    "source": "παράδειγμα",
+    "translation": "example"
+  },
+  {
+    "id": 698,
+    "source": "φτωχός",
+    "translation": "poor"
+  },
+  {
+    "id": 699,
+    "source": "παραδείγματος",
+    "translation": "example"
+  },
+  {
+    "id": 700,
+    "source": "φυλή",
+    "translation": "race"
+  },
+  {
+    "id": 701,
+    "source": "παύση",
+    "translation": "pause"
+  },
+  {
+    "id": 702,
+    "source": "κινητήρας",
+    "translation": "motor"
+  },
+  {
+    "id": 703,
+    "source": "θάλασσα",
+    "translation": "sea"
+  },
+  {
+    "id": 704,
+    "source": "φυτό",
+    "translation": "plant"
+  },
+  {
+    "id": 705,
+    "source": "αιτιατική",
+    "translation": "accusative"
+  },
+  {
+    "id": 706,
+    "source": "ενήλικας",
+    "translation": "adult"
+  },
+  {
+    "id": 707,
+    "source": "φωνήεν",
+    "translation": "vowel"
+  },
+  {
+    "id": 708,
+    "source": "κάμερα",
+    "translation": "camera"
+  },
+  {
+    "id": 709,
+    "source": "φωνή",
+    "translation": "voice"
+  },
+  {
+    "id": 710,
+    "source": "δροσερός",
+    "translation": "cool"
+  },
+  {
+    "id": 711,
+    "source": "φως",
+    "translation": "light"
+  },
+  {
+    "id": 712,
+    "source": "παιχνιδι",
+    "translation": "game"
+  },
+  {
+    "id": 713,
+    "source": "φωτιά",
+    "translation": "fire"
+  },
+  {
+    "id": 714,
+    "source": "τιμή",
+    "translation": "price"
+  },
+  {
+    "id": 715,
+    "source": "φωτογραφία",
+    "translation": "Photo"
+  },
+  {
+    "id": 716,
+    "source": "κεφάλαιο",
+    "translation": "capital"
+  },
+  {
+    "id": 717,
+    "source": "απώτερο",
+    "translation": "distant"
+  },
+  {
+    "id": 718,
+    "source": "Άνθρωποι",
+    "translation": "People"
+  },
+  {
+    "id": 719,
+    "source": "φόρεμα",
+    "translation": "dress"
+  },
+  {
+    "id": 720,
+    "source": "εταιρεία",
+    "translation": "company"
+  },
+  {
+    "id": 721,
+    "source": "φύλλα",
+    "translation": "leaves"
+  },
+  {
+    "id": 722,
+    "source": "κουτί",
+    "translation": "box"
+  },
+  {
+    "id": 723,
+    "source": "φύλλο",
+    "translation": "ply"
+  },
+  {
+    "id": 724,
+    "source": "κρύο",
+    "translation": "cold"
+  },
+  {
+    "id": 725,
+    "source": "βοήθεια",
+    "translation": "aid"
+  },
+  {
+    "id": 726,
+    "source": "μεγάλος",
+    "translation": "large"
+  },
+  {
+    "id": 727,
+    "source": "φύση",
+    "translation": "nature"
+  },
+  {
+    "id": 728,
+    "source": "πυρηνικός",
+    "translation": "nuclear"
+  },
+  {
+    "id": 729,
+    "source": "χάνουν",
+    "translation": "they lose"
+  },
+  {
+    "id": 730,
+    "source": "άσκηση",
+    "translation": "excercise"
+  },
+  {
+    "id": 731,
+    "source": "χάρτης",
+    "translation": "Map"
+  },
+  {
+    "id": 732,
+    "source": "ραδιόφωνο",
+    "translation": "radio"
+  },
+  {
+    "id": 733,
+    "source": "ωραίος",
+    "translation": "nice"
+  },
+  {
+    "id": 734,
+    "source": "εδάφους",
+    "translation": "terrain"
+  },
+  {
+    "id": 735,
+    "source": "μέταλλο",
+    "translation": "metal"
+  },
+  {
+    "id": 736,
+    "source": "χαλκός",
+    "translation": "copper"
+  },
+  {
+    "id": 737,
+    "source": "σεισμός",
+    "translation": "earthquake"
+  },
+  {
+    "id": 738,
+    "source": "χαμηλός",
+    "translation": "low"
+  },
+  {
+    "id": 739,
+    "source": "ήταν",
+    "translation": "it was"
+  },
+  {
+    "id": 740,
+    "source": "αυγό",
+    "translation": "egg"
+  },
+  {
+    "id": 741,
+    "source": "χαμόγελο",
+    "translation": "smile"
+  },
+  {
+    "id": 742,
+    "source": "βλάβη",
+    "translation": "damage"
+  },
+  {
+    "id": 743,
+    "source": "άνθρωπος",
+    "translation": "person"
+  },
+  {
+    "id": 744,
+    "source": "υπουργείο",
+    "translation": "ministry"
+  },
+  {
+    "id": 745,
+    "source": "χείλη",
+    "translation": "lips"
+  },
+  {
+    "id": 746,
+    "source": "ναι",
+    "translation": "Yes"
+  },
+  {
+    "id": 747,
+    "source": "κάτω",
+    "translation": "below"
+  },
+  {
+    "id": 748,
+    "source": "χθες",
+    "translation": "yesterday"
+  },
+  {
+    "id": 749,
+    "source": "νοσοκομείο",
+    "translation": "hospital"
+  },
+  {
+    "id": 750,
+    "source": "χιόνι",
+    "translation": "snow"
+  },
+  {
+    "id": 751,
+    "source": "διευθυντής",
+    "translation": "director"
+  },
+  {
+    "id": 752,
+    "source": "χοίρος",
+    "translation": "pig"
+  },
+  {
+    "id": 753,
+    "source": "είμαι",
+    "translation": "I am"
+  },
+  {
+    "id": 754,
+    "source": "αναμειγνύεται",
+    "translation": "mixed"
+  },
+  {
+    "id": 755,
+    "source": "ειρωνεία",
+    "translation": "irony"
+  },
+  {
+    "id": 756,
+    "source": "δύση",
+    "translation": "West"
+  },
+  {
+    "id": 757,
+    "source": "εικόνα",
+    "translation": "image"
+  },
+  {
+    "id": 758,
+    "source": "χρήματα",
+    "translation": "money"
+  },
+  {
+    "id": 759,
+    "source": "εσύ",
+    "translation": "you"
+  },
+  {
+    "id": 760,
+    "source": "χρειάζομαι",
+    "translation": "need"
+  },
+  {
+    "id": 761,
+    "source": "περίφημος",
+    "translation": "famous"
+  },
+  {
+    "id": 762,
+    "source": "χρυσός",
+    "translation": "gold"
+  },
+  {
+    "id": 763,
+    "source": "ισόγειο",
+    "translation": "ground floor"
+  },
+  {
+    "id": 764,
+    "source": "χρόνος",
+    "translation": "year"
+  },
+  {
+    "id": 765,
+    "source": "καλαμπόκι",
+    "translation": "corn"
+  },
+  {
+    "id": 766,
+    "source": "χρώμα",
+    "translation": "colour"
+  },
+  {
+    "id": 767,
+    "source": "καφές",
+    "translation": "coffee"
+  },
+  {
+    "id": 768,
+    "source": "απορρίμματα",
+    "translation": "trash"
+  },
+  {
+    "id": 769,
+    "source": "πουκάμισο",
+    "translation": "shirt"
+  },
+  {
+    "id": 770,
+    "source": "χύμα",
+    "translation": "loose"
+  },
+  {
+    "id": 771,
+    "source": "Λερναία",
+    "translation": "Lernaia"
+  },
+  {
+    "id": 772,
+    "source": "χώρα",
+    "translation": "country"
+  },
+  {
+    "id": 773,
+    "source": "τραπέζι",
+    "translation": "table"
+  },
+  {
+    "id": 774,
+    "source": "ψάρι",
+    "translation": "fish"
+  },
+  {
+    "id": 775,
+    "source": "έπαινος",
+    "translation": "praise"
+  },
+  {
+    "id": 776,
+    "source": "ψηλός",
+    "translation": "tall"
+  },
+  {
+    "id": 777,
+    "source": "αεροπλάνο",
+    "translation": "airplane"
+  },
+  {
+    "id": 778,
+    "source": "βαθύς",
+    "translation": "deep"
+  },
+  {
+    "id": 779,
+    "source": "μετανάστευση",
+    "translation": "immigration"
+  },
+  {
+    "id": 780,
+    "source": "ψωμί",
+    "translation": "bread"
+  },
+  {
+    "id": 781,
+    "source": "βόρεια",
+    "translation": "North"
+  },
+  {
+    "id": 782,
+    "source": "θερμοκρασία",
+    "translation": "temperature"
+  },
+  {
+    "id": 783,
+    "source": "δακρύζω",
+    "translation": "I tear"
+  },
+  {
+    "id": 784,
+    "source": "γκρί",
+    "translation": "gray"
+  },
+  {
+    "id": 785,
+    "source": "αιτία",
+    "translation": "cause"
+  },
+  {
+    "id": 786,
+    "source": "κέικ",
+    "translation": "cake"
+  },
+  {
+    "id": 787,
+    "source": "εγώ ",
+    "translation": "I"
+  },
+  {
+    "id": 788,
+    "source": "ακριβός",
+    "translation": "expensive"
+  },
+  {
+    "id": 789,
+    "source": "επιστολή",
+    "translation": "letter"
+  },
+  {
+    "id": 790,
+    "source": "όλος",
+    "translation": "all"
+  },
+  {
+    "id": 791,
+    "source": "χειμώνας",
+    "translation": "winter"
+  },
+  {
+    "id": 792,
+    "source": "όμοιος",
+    "translation": "similar"
+  },
+  {
+    "id": 793,
+    "source": "άνοιξη",
+    "translation": "spring"
+  },
+  {
+    "id": 794,
+    "source": "όμορφος",
+    "translation": "good looking"
+  },
+  {
+    "id": 795,
+    "source": "πράσινος",
+    "translation": "green"
+  },
+  {
+    "id": 796,
+    "source": "όμως",
+    "translation": "Nevertheless"
+  },
+  {
+    "id": 797,
+    "source": "κατασκευή",
+    "translation": "construction"
+  },
+  {
+    "id": 798,
+    "source": "εκατοστόμετρο",
+    "translation": "centimeter"
+  },
+  {
+    "id": 799,
+    "source": "χέρι",
+    "translation": "hand"
+  },
+  {
+    "id": 800,
+    "source": "θηλυκός",
+    "translation": "female"
+  },
+  {
+    "id": 801,
+    "source": "έτος",
+    "translation": "year"
+  },
+  {
+    "id": 802,
+    "source": "όπλο",
+    "translation": "weapon"
+  },
+  {
+    "id": 803,
+    "source": "ψωμί ",
+    "translation": "bread"
+  },
+  {
+    "id": 804,
+    "source": "όργανο",
+    "translation": "organ"
+  },
+  {
+    "id": 805,
+    "source": "ευχαριστώ",
+    "translation": "thanks"
+  },
+  {
+    "id": 806,
+    "source": "ότι",
+    "translation": "that"
+  },
+  {
+    "id": 807,
+    "source": "ζεστός",
+    "translation": "hot"
+  },
+  {
+    "id": 808,
+    "source": "ζάχαρη",
+    "translation": "sugar"
+  },
+  {
+    "id": 809,
+    "source": "ώμος",
+    "translation": "raw"
+  },
+  {
+    "id": 810,
+    "source": "εκλογή",
+    "translation": "election"
+  },
+  {
+    "id": 811,
+    "source": "ύπνος",
+    "translation": "sleep"
+  },
+  {
+    "id": 812,
+    "source": "κατεύθυνση",
+    "translation": "direction"
+  },
+  {
+    "id": 813,
+    "source": "σιωπή",
+    "translation": "silence"
+  },
+  {
+    "id": 814,
+    "source": "δείπνο",
+    "translation": "dinner"
+  },
+  {
+    "id": 815,
+    "source": "Κορέας",
+    "translation": "Korean"
+  },
+  {
+    "id": 816,
+    "source": "Άνοιξη",
+    "translation": "Spring"
+  },
+  {
+    "id": 817,
+    "source": "δίκαιο",
+    "translation": "fair enough"
+  }
 ]

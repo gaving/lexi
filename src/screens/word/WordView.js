@@ -39,37 +39,14 @@ class WordView extends Component {
   };
   async componentWillMount() {
     const { word } = this.props;
-    const translation = await this.fetchTranslation(word);
+    const { source, translation } = word;
     const definition = await this.fetchDefinition(translation);
     this.setState({
-      word,
+      word: source,
       translation,
       definition,
       isReady: true
     });
-  }
-  async fetchTranslation(word) {
-    const response = await fetch(
-      `https://translation.googleapis.com/language/translate/v2?key=${
-        Config.GOOGLE_TRANSLATE_API_KEY
-      }`,
-      {
-        method: "post",
-        body: JSON.stringify({
-          q: word,
-          source: "el",
-          target: "en",
-          format: "text"
-        })
-      }
-    )
-      .then(res => {
-        return res.json();
-      })
-      .catch(error => {
-        console.log(error);
-      });
-    return response.data.translations[0].translatedText;
   }
   async fetchDefinition(word) {
     const response = await fetch(

@@ -55,20 +55,7 @@ class HistoryScreen extends Component {
     this.renderRow = this._renderRow.bind(this);
   }
 
-  async componentWillMount() {
-    const dayOfYear = moment().dayOfYear();
-    const words = WORD_SET.slice(0, dayOfYear + 1);
-
-    this.setState({
-      words,
-      loading: false
-    });
-  }
-
-  onPress(word) {
-    const { navigate } = this.props.navigation;
-    navigate("Word", { word });
-  }
+  async componentWillMount() {}
 
   _setData(data) {
     let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
@@ -78,13 +65,18 @@ class HistoryScreen extends Component {
   }
 
   _renderRow(row) {
-    let name = `${row}`;
+    const { id, source, translation } = row;
     return (
       <TouchableOpacity
-        onPress={() => this.props.navigation.navigate("word", { id: row })}
+        onPress={() => this.props.navigation.navigate("Word", { id })}
       >
         <View style={styles.container}>
-          <RkText>{name}</RkText>
+          <View style={styles.text}>
+            <RkText>{translation}</RkText>
+          </View>
+          <View style={styles.attachment}>
+            <RkText rkType="right secondary5 hintColor">{source}</RkText>
+          </View>
         </View>
       </TouchableOpacity>
     );
@@ -112,7 +104,7 @@ class HistoryScreen extends Component {
   _filter(text) {
     let pattern = new RegExp(text, "i");
     let users = this.users.filter(user => {
-      if (user.search(pattern) != -1) return user;
+      if (user.translation.search(pattern) != -1) return user;
     });
 
     this.setData(users);
@@ -161,6 +153,10 @@ const styles = RkStyleSheet.create(theme => ({
     flex: 1,
     height: StyleSheet.hairlineWidth,
     backgroundColor: theme.colors.border.base
+  },
+  attachment: {
+    position: "absolute",
+    right: 10
   }
 }));
 

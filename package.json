@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "jest-expo": "^23.0.1",
+    "node-fetch": "^1.7.3",
     "react-native-scripts": "^1.8.1",
     "react-test-renderer": "^16.2.0"
   },
@@ -13,7 +16,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "generate": "babel-node scripts/generate_db.js"
   },
   "jest": {
     "preset": "jest-expo"
