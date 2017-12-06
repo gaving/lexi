@@ -2,17 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Ionicons } from "@expo/vector-icons";
 
-import { TouchableOpacity, View, Text, StyleSheet } from "react-native";
+import { TouchableOpacity, View, StyleSheet } from "react-native";
 
 import { Speech } from "expo";
-import {
-  RkCard,
-  RkTheme,
-  RkStyleSheet,
-  RkText,
-  RkButton,
-  RkModalImg
-} from "react-native-ui-kitten";
+import { RkText } from "react-native-ui-kitten";
 
 class Translation extends Component {
   static propTypes = {

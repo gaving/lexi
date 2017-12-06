@@ -3,29 +3,14 @@ import PropTypes from "prop-types";
 
 import Config from "../../../config.json";
 import { Ionicons } from "@expo/vector-icons";
-import LinearGradient from "react-native-linear-gradient";
 
 import moment from "moment";
 
-import {
-  RkCard,
-  RkTheme,
-  RkStyleSheet,
-  RkText,
-  RkButton,
-  RkModalImg
-} from "react-native-ui-kitten";
+import { RkCard, RkStyleSheet, RkText, RkButton } from "react-native-ui-kitten";
 
-import {
-  ScrollView,
-  Text,
-  View,
-  Image,
-  StyleSheet,
-  TouchableOpacity
-} from "react-native";
+import { ScrollView, View, Image, TouchableOpacity } from "react-native";
 
-import { AppLoading, Font } from "expo";
+import { AppLoading } from "expo";
 
 import Translation from "./Translation";
 import Definition from "./Definition";

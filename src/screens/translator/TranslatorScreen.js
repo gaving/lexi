@@ -1,20 +1,10 @@
 import React, { Component } from "react";
-import WORD_SET from "../../../assets/words.json";
 
-import {
-  Text,
-  ScrollView,
-  View,
-  StyleSheet,
-  SectionTranslator
-} from "react-native";
+import { View, StyleSheet } from "react-native";
 
-import { Translator, TranslatorItem } from "react-native-elements";
-
-import { ActivityIndicator, Constants } from "expo";
+import { Constants } from "expo";
 
 import { Ionicons } from "@expo/vector-icons";
-import moment from "moment";
 
 class TranslatorScreen extends Component {
   static navigationOptions = {

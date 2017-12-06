@@ -1,26 +1,12 @@
 import React, { Component } from "react";
 import WORD_SET from "../../../assets/words.json";
 
-import {
-  Text,
-  ScrollView,
-  View,
-  StyleSheet,
-  SectionHistory,
-  ListView,
-  TouchableOpacity
-} from "react-native";
+import { View, StyleSheet, ListView, TouchableOpacity } from "react-native";
 
-import {
-  RkCard,
-  RkText,
-  RkTextInput,
-  RkStyleSheet
-} from "react-native-ui-kitten";
-import { ActivityIndicator, Constants } from "expo";
+import { RkText, RkTextInput, RkStyleSheet } from "react-native-ui-kitten";
+import { ActivityIndicator } from "expo";
 
 import { Ionicons } from "@expo/vector-icons";
-import moment from "moment";
 
 class HistoryScreen extends Component {
   static navigationOptions = {
