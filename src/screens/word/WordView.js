@@ -50,6 +50,10 @@ class WordView extends Component {
       });
     return response ? response.results : [];
   }
+  onTranslationPress() {
+    const { translation } = this.refs;
+    translation.onPress();
+  }
   render() {
     const { translation, word, definition, isReady } = this.state;
 
@@ -65,7 +69,7 @@ class WordView extends Component {
     ];
 
     return (
-      <ScrollView style={styles.root}>
+      <ScrollView style={styles.root} scrollEnabled={false}>
         <RkCard rkType="article">
           <Image rkCardImg source={bg[index]} />
           <View rkCardHeader>
@@ -77,29 +81,23 @@ class WordView extends Component {
                 {moment().format("dddd, MMMM Do")}
               </RkText>
             </View>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={this.onTranslationPress.bind(this)}>
               <RkText rkType="secondary2 hintColor">
                 <Ionicons name="md-volume-up" size={32} />
               </RkText>
             </TouchableOpacity>
           </View>
-          <View style={styles.content} rkCardContent>
+          <ScrollView rkCardContent style={styles.content}>
             <Translation
               word={word}
               translation={translation}
               focused={focused}
+              ref="translation"
             />
             <Definition style={styles.def} definition={definition} />
-          </View>
+          </ScrollView>
           <View style={styles.section} rkCardFooter>
-            <RkButton rkType="clear">
-              <RkText rkType="hintColor" style={styles.icon}>
-                <Ionicons name="md-heart" />
-              </RkText>
-              <RkText rkType="primary4 hintColor" style={styles.label}>
-                18 Likes
-              </RkText>
-            </RkButton>
+            <RkButton rkType="clear" />
           </View>
         </RkCard>
       </ScrollView>
@@ -115,9 +113,7 @@ const styles = RkStyleSheet.create(theme => ({
     marginBottom: 5
   },
   content: {
-    flex: 1,
-    flexDirection: "column",
-    justifyContent: "space-between"
+    maxHeight: 280
   },
   section: {
     justifyContent: "center",

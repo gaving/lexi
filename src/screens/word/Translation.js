@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Ionicons } from "@expo/vector-icons";
 
 import { TouchableOpacity, View, StyleSheet } from "react-native";
 
@@ -19,6 +18,11 @@ class Translation extends Component {
     rate: 0.75,
     pressed: false
   };
+  onPress() {
+    const { word } = this.props;
+    this.setState({ pressed: true });
+    this._speak("el", word);
+  }
   render() {
     const { inProgress, pressed } = this.state;
     const { translation, word, focused } = this.props;
@@ -37,10 +41,7 @@ class Translation extends Component {
           disabled={inProgress}
           activeOpacity={inProgress ? 1 : 0.3}
           style={styles.press}
-          onPress={() => {
-            this.setState({ pressed: true });
-            this._speak("el", word);
-          }}
+          onPress={this.onPress.bind(this)}
         >
           <RkText
             rkType="header1 baseColor"
