@@ -11,6 +11,14 @@
     "test": "node node_modules/jest/bin/jest.js --watch",
     "generate": "babel-node scripts/generate_db.js"
   },
+  "authors": [
+    {
+      "name": "Gavin Gilmour",
+      "email": "gavin.gilmour@gmail.com"
+    }
+  ],
+  "homepage": "http://gaving.github.io/lexi/",
+  "license": "MIT",
   "jest": {
     "preset": "jest-expo"
   },
