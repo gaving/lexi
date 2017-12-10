@@ -8,29 +8,47 @@ import moment from "moment";
 
 import { RkCard, RkStyleSheet, RkText, RkButton } from "react-native-ui-kitten";
 
-import { ScrollView, View, Image, TouchableOpacity } from "react-native";
+import {
+  AsyncStorage,
+  ScrollView,
+  View,
+  Image,
+  TouchableOpacity
+} from "react-native";
 
 import { AppLoading } from "expo";
 
 import Translation from "./Translation";
 import Definition from "./Definition";
 
+const FAVOURITE_WORDS_KEY = "favourites";
+
 class WordView extends Component {
   static propTypes = {
     focused: PropTypes.bool
   };
   state = {
-    isReady: false
+    isReady: false,
+    favourite: false
   };
   async componentWillMount() {
     const { word } = this.props;
-    const { source, translation } = word;
+    const { id, source, translation } = word;
+
     const definition = await this.fetchDefinition(translation);
+    const favourites = await AsyncStorage.getItem(FAVOURITE_WORDS_KEY).then(
+      data => {
+        return JSON.parse(data);
+      }
+    );
+
     this.setState({
+      id,
       word: source,
       translation,
       definition,
-      isReady: true
+      isReady: true,
+      favourite: favourites.includes(id)
     });
   }
   async fetchDefinition(word) {
@@ -50,12 +68,36 @@ class WordView extends Component {
       });
     return response ? response.results : [];
   }
+  async onFavouritePress() {
+    const { favourite, id } = this.state;
+
+    this.setState({
+      favourite: !favourite
+    });
+
+    try {
+      AsyncStorage.getItem(FAVOURITE_WORDS_KEY, (err, result) => {
+        const words = [id];
+        if (result !== null) {
+          const favourites = JSON.parse(result);
+          const newWords = favourite
+            ? favourites.filter(e => e !== id)
+            : favourites.concat(words);
+          AsyncStorage.setItem(FAVOURITE_WORDS_KEY, JSON.stringify(newWords));
+        } else {
+          AsyncStorage.setItem(FAVOURITE_WORDS_KEY, JSON.stringify(words));
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  }
   onTranslationPress() {
     const { translation } = this.refs;
     translation.onPress();
   }
   render() {
-    const { translation, word, definition, isReady } = this.state;
+    const { translation, word, definition, isReady, favourite } = this.state;
 
     if (!isReady) {
       return <AppLoading />;
@@ -81,11 +123,24 @@ class WordView extends Component {
                 {moment().format("dddd, MMMM Do")}
               </RkText>
             </View>
-            <TouchableOpacity onPress={this.onTranslationPress.bind(this)}>
-              <RkText rkType="secondary2 hintColor">
-                <Ionicons name="md-volume-up" size={32} />
-              </RkText>
-            </TouchableOpacity>
+            <View style={styles.buttons}>
+              <TouchableOpacity onPress={this.onFavouritePress.bind(this)}>
+                <RkText rkType="secondary2 hintColor">
+                  <Ionicons
+                    name={favourite ? "md-star" : "md-star-outline"}
+                    size={32}
+                  />
+                </RkText>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={{ marginLeft: 20 }}
+                onPress={this.onTranslationPress.bind(this)}
+              >
+                <RkText rkType="secondary2 hintColor">
+                  <Ionicons name="md-volume-up" size={32} />
+                </RkText>
+              </TouchableOpacity>
+            </View>
           </View>
           <ScrollView rkCardContent style={styles.content}>
             <Translation
@@ -96,9 +151,7 @@ class WordView extends Component {
             />
             <Definition style={styles.def} definition={definition} />
           </ScrollView>
-          <View style={styles.section} rkCardFooter>
-            <RkButton rkType="clear" />
-          </View>
+          <View style={styles.section} rkCardFooter />
         </RkCard>
       </ScrollView>
     );
@@ -120,12 +173,9 @@ const styles = RkStyleSheet.create(theme => ({
     flexDirection: "row",
     flex: 1
   },
-  icon: {
-    fontSize: 20
-  },
-  label: {
-    marginLeft: 8,
-    alignSelf: "flex-end"
+  buttons: {
+    flexDirection: "row",
+    justifyContent: "space-between"
   }
 }));
 

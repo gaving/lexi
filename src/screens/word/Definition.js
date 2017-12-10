@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { View, Text, ScrollView, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 
-import {
-  RkCard,
-  RkTheme,
-  RkText,
-  RkButton,
-  RkModalImg
-} from "react-native-ui-kitten";
+import { RkText } from "react-native-ui-kitten";
 
 class Definition extends Component {
   static propTypes = {
