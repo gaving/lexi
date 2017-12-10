@@ -1,15 +1,7 @@
 {
   "name": "Lexi",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "jest-expo": "^23.0.1",
-    "node-fetch": "^1.7.3",
-    "react-native-scripts": "^1.8.1",
-    "react-test-renderer": "^16.2.0"
-  },
+  "version": "1.0.0",
+  "private": false,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "react-native-scripts start",
@@ -22,15 +14,22 @@
   "jest": {
     "preset": "jest-expo"
   },
-  "dependencies": {
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.2",
+    "babel-preset-env": "^1.6.1",
+    "jest-expo": "^23.0.1",
+    "node-fetch": "^1.7.3",
+    "react-native-scripts": "^1.8.1",
+    "react-test-renderer": "^16.2.0"
+  },
+  "dependencies": {
     "expo": "^23.0.0",
     "moment": "^2.19.3",
     "prop-types": "^15.6.0",
     "react": "16.0.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
-    "react-native-elements": "^0.18.4",
-    "react-native-linear-gradient": "^2.3.0",
+    "react-native":
+      "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
     "react-native-swiper": "^1.5.13",
     "react-native-ui-kitten": "^2.0.1",
     "react-navigation": "^1.0.0-beta.21"
