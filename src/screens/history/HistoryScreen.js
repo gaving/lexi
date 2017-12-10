@@ -54,7 +54,7 @@ class HistoryScreen extends Component {
     const { id, source, translation } = row;
     return (
       <TouchableOpacity
-        onPress={() => this.props.navigation.navigate("Word", { id })}
+        onPress={() => this.props.navigation.navigate("SpecificWord", { id })}
       >
         <View style={styles.container}>
           <View style={styles.text}>

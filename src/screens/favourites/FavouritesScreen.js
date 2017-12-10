@@ -60,8 +60,8 @@ class FavouritesScreen extends Component {
   }
 
   async componentWillMount() {
-    const favs = await this._fetchData();
-    this._updateList(favs);
+    this.favourites = await this._fetchData();
+    this._updateList(this.favourites);
   }
 
   _updateList(favs) {
@@ -72,10 +72,6 @@ class FavouritesScreen extends Component {
     this.setState({
       data: ds.cloneWithRows(favs)
     });
-  }
-
-  componentWillReceiveProps() {
-    console.log("focusing");
   }
 
   _setData(data) {
@@ -89,7 +85,7 @@ class FavouritesScreen extends Component {
     const { id, source, translation } = row;
     return (
       <TouchableOpacity
-        onPress={() => this.props.navigation.navigate("Word", { id })}
+        onPress={() => this.props.navigation.navigate("SpecificWord", { id })}
       >
         <View style={styles.container}>
           <View style={styles.text}>
@@ -123,6 +119,7 @@ class FavouritesScreen extends Component {
   }
 
   _filter(text) {
+    console.log(this.favourites);
     let pattern = new RegExp(text, "i");
     let favourites = this.favourites.filter(favourite => {
       if (favourite.translation.search(pattern) != -1) return favourite;

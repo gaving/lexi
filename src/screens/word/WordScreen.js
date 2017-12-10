@@ -13,8 +13,7 @@ import WordView from "./WordView";
 
 class WordScreen extends Component {
   static navigationOptions = {
-    header: null,
-    tabBarLabel: "Word",
+    tabBarLabel: "Word of the Day",
     tabBarIcon: ({ tintColor, focused }) => (
       <Ionicons
         name={focused ? "ios-calendar" : "ios-calendar-outline"}

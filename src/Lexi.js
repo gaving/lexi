@@ -4,6 +4,7 @@ import { StackNavigator, TabNavigator } from "react-navigation";
 import { Platform } from "react-native";
 
 import { WordScreen } from "./screens/word";
+import { WordScreen as SpecificWordScreen } from "./screens/word";
 import { HistoryScreen } from "./screens/history";
 // import { TranslatorScreen } from "./screens/translator";
 import { FavouritesScreen } from "./screens/favourites";
@@ -22,7 +23,10 @@ const MainNavigator = TabNavigator(
     Word: {
       screen: WordScreen,
       path: "word",
-      params: { id: 0 }
+      params: { id: 0 },
+      navigationOptions: {
+        header: null
+      }
     },
     Favourites: {
       screen: FavouritesScreen,
@@ -43,7 +47,11 @@ const MainNavigator = TabNavigator(
 );
 
 const Navigator = StackNavigator({
-  MainNavigator: { screen: MainNavigator }
+  MainNavigator: { screen: MainNavigator },
+  SpecificWord: {
+    screen: SpecificWordScreen,
+    path: "/words/:word"
+  }
 });
 
 export default class Lexi extends Component {
@@ -59,7 +67,6 @@ export default class Lexi extends Component {
         require("../assets/img/3.jpg")
       ],
       fonts: [
-        { "OpenSans-Bold": require("../assets/fonts/OpenSans-Bold.ttf") },
         { "Roboto-Bold": require("../assets/fonts/Roboto-Bold.ttf") },
         { "Roboto-Light": require("../assets/fonts/Roboto-Light.ttf") },
         { "Roboto-Medium": require("../assets/fonts/Roboto-Medium.ttf") },
