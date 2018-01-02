@@ -40,7 +40,10 @@ class WordView extends Component {
       data => {
         return JSON.parse(data);
       }
-    );
+    )
+      .catch(error => {
+        console.log(error);
+      });
 
     this.setState({
       id,
@@ -48,7 +51,7 @@ class WordView extends Component {
       translation,
       definition,
       isReady: true,
-      favourite: favourites.includes(id)
+      favourite: favourites && favourites.includes(id)
     });
   }
   async fetchDefinition(word) {

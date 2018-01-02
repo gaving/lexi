@@ -67,8 +67,7 @@ const styles = RkStyleSheet.create(theme => ({
   container: {
     flex: 1,
     backgroundColor: theme.colors.screen.base
-  },
-  buttonText: {}
+  }
 }));
 
 export default WordScreen;
