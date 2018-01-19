@@ -36,11 +36,10 @@ class WordView extends Component {
     const { id, source, translation } = word;
 
     const definition = await this.fetchDefinition(translation);
-    const favourites = await AsyncStorage.getItem(FAVOURITE_WORDS_KEY).then(
-      data => {
+    const favourites = await AsyncStorage.getItem(FAVOURITE_WORDS_KEY)
+      .then(data => {
         return JSON.parse(data);
-      }
-    )
+      })
       .catch(error => {
         console.log(error);
       });
@@ -100,7 +99,14 @@ class WordView extends Component {
     translation.onPress();
   }
   render() {
-    const { translation, word, definition, isReady, favourite } = this.state;
+    const {
+      translation,
+      id,
+      word,
+      definition,
+      isReady,
+      favourite
+    } = this.state;
 
     if (!isReady) {
       return <AppLoading />;
@@ -123,7 +129,9 @@ class WordView extends Component {
                 {`${translation}`}
               </RkText>
               <RkText rkType="secondary2 hintColor">
-                {moment().format("dddd, MMMM Do")}
+                {moment()
+                  .dayOfYear(id)
+                  .format("dddd, MMMM Do")}
               </RkText>
             </View>
             <View style={styles.buttons}>
