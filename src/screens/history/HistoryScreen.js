@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WORD_SET from "../../../assets/words.json";
+import moment from "moment";
 
 import { View, StyleSheet, ListView, TouchableOpacity } from "react-native";
 
@@ -28,11 +29,13 @@ class HistoryScreen extends Component {
   constructor(props) {
     super(props);
 
-    this.users = WORD_SET;
+    // this.words = WORD_SET;
+    const dayOfYear = moment().dayOfYear();
+    this.words = WORD_SET.slice(0, dayOfYear + 1).reverse();
 
     let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
     this.state = {
-      data: ds.cloneWithRows(this.users)
+      data: ds.cloneWithRows(this.words)
     };
 
     this.filter = this._filter.bind(this);
@@ -89,11 +92,11 @@ class HistoryScreen extends Component {
 
   _filter(text) {
     let pattern = new RegExp(text, "i");
-    let users = this.users.filter(user => {
-      if (user.translation.search(pattern) != -1) return user;
+    let words = this.words.filter(word => {
+      if (word.translation.search(pattern) !== -1) return word;
     });
 
-    this.setData(users);
+    this.setData(words);
   }
 
   render() {
