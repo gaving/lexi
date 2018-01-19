@@ -3,4 +3,5 @@ node_modules/
 npm-debug.*
 config.json
 .vscode
-.idea
+.ideabuilds
+builds/
