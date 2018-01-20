@@ -93,7 +93,7 @@ class HistoryScreen extends Component {
   _filter(text) {
     let pattern = new RegExp(text, "i");
     let words = this.words.filter(word => {
-      if (word.translation.search(pattern) !== -1) return word;
+      return word.translation.search(pattern) !== -1;
     });
 
     this.setData(words);

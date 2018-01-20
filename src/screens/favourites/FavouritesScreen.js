@@ -39,7 +39,9 @@ class FavouritesScreen extends Component {
 
     let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
 
-    this.state.data = ds.cloneWithRows(this.favourites);
+    this.state = {
+      data: ds.cloneWithRows(this.favourites)
+    };
 
     this.filter = this._filter.bind(this);
     this.setData = this._setData.bind(this);
@@ -119,10 +121,9 @@ class FavouritesScreen extends Component {
   }
 
   _filter(text) {
-    console.log(this.favourites);
     let pattern = new RegExp(text, "i");
     let favourites = this.favourites.filter(favourite => {
-      if (favourite.translation.search(pattern) != -1) return favourite;
+      return favourite.translation.search(pattern) !== -1;
     });
 
     this.setData(favourites);
